@@ -1,0 +1,14 @@
+{
+    "Recherches": ["www.google.be", "www.google.com", "www.mozilla.org", "www.opera.com", "www.bing.com", "www.yahoo.com", "www.qwant.com", "duckduckgo.com"],
+    "Cinemas": ["www.pathe.be", "www.kinepolis.be", "www.cinebel.dhnet.be", "www.ugc.be", "www.cinergie.be"],
+    "Ecriture": ["www.overleaf.com", " vscode.dev"],
+    "Traduction": ["www.deepl.com", "www.larousse.fr", "www.linguee.fr", "www.translate.google.com"],
+    "Information": ["www.imperva.com", "www.lesechos.fr", "www.ultimedia.com", "www.alleydog.com", "www.arimetrics.com", "www.lesoir.be", "www.rtbf.be", "www.lavenir.net", "www.nytimes.com"],
+    "Train": ["www.interrail.eu", "www.belgiantrain.be", "www.thalys.com/be", "www.eurostar.com"],
+    "Non-Classe": ["www.brighttalk.com", "www.gstatic.com", "www.firewall.cx", "www.linkblock.net", "www.googleoptimize.com", "www.lagomframework.com"],
+    "ArticlesSciences": ["www.ieee.org", "www.sciencedirect.com", "www.sci-hub.ru", "www.researchgate.net", "scholar.google.com"],
+    "Sports": ["www.like2sport.com", "www.decathlon.fr", "www.sportone.be", "cyclesbodart.com"],
+    "Universite": ["www.ulb.be", "www.uclouvain.be", "www.unamur.be", "www.uliege.be", "www.rma.ac.be", "www.kuleuven.be"],
+    "Loisirs": ["www.zoobelgique.com", "www.zooplanckendael.be", "www.pairidaiza.eu", "www.walibi.com", "www.disneylandparis.com"],
+    "Travail": ["www.mindmup.com", "www.edrawmax.com"]
+}

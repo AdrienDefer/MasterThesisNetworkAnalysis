@@ -1,0 +1,3381 @@
+{
+    "Bits statistics": {
+        "Ingoing": 1877114832,
+        "Outgoing": 363642880,
+        "Total": 2240757712
+    },
+    "Packets statistics": {
+        "Ingoing": 266177,
+        "Outgoing": 226297,
+        "Total": 492474
+    },
+    "Domain names statistics": {
+        "Domain contacted": [
+            "www.pathe.be",
+            "www.google.be",
+            "www.overleaf.com",
+            "www.deepl.com",
+            "www.google.com",
+            "www.imperva.com",
+            "www.brighttalk.com",
+            "www.mindmup.com",
+            "www.gstatic.com",
+            "www.firewall.cx",
+            "www.interrail.eu",
+            "www.ieee.org",
+            "www.sciencedirect.com",
+            "www.linkblock.net",
+            "www.sci-hub.ru",
+            "www.googleoptimize.com",
+            "www.lagomframework.com",
+            "www.like2sport.com",
+            "www.lesechos.fr",
+            "www.ultimedia.com",
+            "www.alleydog.com",
+            "www.researchgate.net",
+            "www.arimetrics.com",
+            "www.ulb.be",
+            "www.mozilla.org",
+            "www.zoobelgique.com",
+            "www.zooplanckendael.be"
+        ],
+        "Number contacted": 152,
+        "Unduplicated contacted": 27
+    },
+    "Zones statistics": {
+        "Zone number": 10,
+        "Zone information": {
+            "Zone 1": {
+                "Start time": 1682058660,
+                "End time": 1682060220,
+                "Domain contacted in the zone": 12
+            },
+            "Zone 2": {
+                "Start time": 1682060640,
+                "End time": 1682064780,
+                "Domain contacted in the zone": 21
+            },
+            "Zone 3": {
+                "Start time": 1682065020,
+                "End time": 1682071860,
+                "Domain contacted in the zone": 48
+            },
+            "Zone 4": {
+                "Start time": 1682073600,
+                "End time": 1682076240,
+                "Domain contacted in the zone": 7
+            },
+            "Zone 5": {
+                "Start time": 1682076420,
+                "End time": 1682080200,
+                "Domain contacted in the zone": 21
+            },
+            "Zone 6": {
+                "Start time": 1682080560,
+                "End time": 1682085060,
+                "Domain contacted in the zone": 24
+            },
+            "Zone 7": {
+                "Start time": 1682085720,
+                "End time": 1682086380,
+                "Domain contacted in the zone": 8
+            },
+            "Zone 8": {
+                "Start time": 1682090820,
+                "End time": 1682091420,
+                "Domain contacted in the zone": 1
+            },
+            "Zone 9": {
+                "Start time": 1682098260,
+                "End time": 1682098860,
+                "Domain contacted in the zone": 1
+            },
+            "Zone 10": {
+                "Start time": 1682105760,
+                "End time": 1682107920,
+                "Domain contacted in the zone": 8
+            }
+        }
+    },
+    "Activities statistics": {
+        "81.243.1.152": {
+            "Session 1": {
+                "Start time": "1682058672",
+                "End time": "1682058793",
+                "Total duration": "121",
+                "Domain name": "www.pathe.be",
+                "IP address": "81.243.1.152",
+                "Port": [
+                    "62717",
+                    "62718",
+                    "62719"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 420984,
+                    "Outgoing": 55480,
+                    "Total": 476464
+                },
+                "Packets statistics": {
+                    "Ingoing": 74,
+                    "Outgoing": 66,
+                    "Total": 140
+                }
+            },
+            "Session 2": {
+                "Start time": "1682076941",
+                "End time": "1682077063",
+                "Total duration": "122",
+                "Domain name": "www.pathe.be",
+                "IP address": "81.243.1.152",
+                "Port": "64166",
+                "Bits statistics": {
+                    "Ingoing": 2241640,
+                    "Outgoing": 110376,
+                    "Total": 2352016
+                },
+                "Packets statistics": {
+                    "Ingoing": 210,
+                    "Outgoing": 163,
+                    "Total": 373
+                }
+            }
+        },
+        "2a00:1450:400e:80c::2003": {
+            "Session 1": {
+                "Start time": "1682058673",
+                "End time": "1682058914",
+                "Total duration": "241",
+                "Domain name": "www.google.be",
+                "IP address": "2a00:1450:400e:80c::2003",
+                "Port": [
+                    "62721",
+                    "62726",
+                    "62731"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 1933912,
+                    "Outgoing": 120216,
+                    "Total": 2054128
+                },
+                "Packets statistics": {
+                    "Ingoing": 242,
+                    "Outgoing": 135,
+                    "Total": 377
+                }
+            }
+        },
+        "34.120.52.64": {
+            "Session 1": {
+                "Start time": "1682058673",
+                "End time": "1682059155",
+                "Total duration": "482",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62722",
+                "Bits statistics": {
+                    "Ingoing": 9135648,
+                    "Outgoing": 551040,
+                    "Total": 9686688
+                },
+                "Packets statistics": {
+                    "Ingoing": 1002,
+                    "Outgoing": 521,
+                    "Total": 1523
+                }
+            },
+            "Session 2": {
+                "Start time": "1682059246",
+                "End time": "1682059367",
+                "Total duration": "121",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62753",
+                "Bits statistics": {
+                    "Ingoing": 60592,
+                    "Outgoing": 21416,
+                    "Total": 82008
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 13,
+                    "Total": 28
+                }
+            },
+            "Session 3": {
+                "Start time": "1682060691",
+                "End time": "1682060932",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62817",
+                "Bits statistics": {
+                    "Ingoing": 71648,
+                    "Outgoing": 28424,
+                    "Total": 100072
+                },
+                "Packets statistics": {
+                    "Ingoing": 23,
+                    "Outgoing": 22,
+                    "Total": 45
+                }
+            },
+            "Session 4": {
+                "Start time": "1682061480",
+                "End time": "1682061600",
+                "Total duration": "120",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62898",
+                "Bits statistics": {
+                    "Ingoing": 59496,
+                    "Outgoing": 18200,
+                    "Total": 77696
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 14,
+                    "Total": 29
+                }
+            },
+            "Session 5": {
+                "Start time": "1682062071",
+                "End time": "1682062475",
+                "Total duration": "404",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62946",
+                "Bits statistics": {
+                    "Ingoing": 118280,
+                    "Outgoing": 52920,
+                    "Total": 171200
+                },
+                "Packets statistics": {
+                    "Ingoing": 50,
+                    "Outgoing": 47,
+                    "Total": 97
+                }
+            },
+            "Session 6": {
+                "Start time": "1682063775",
+                "End time": "1682063945",
+                "Total duration": "170",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63175",
+                "Bits statistics": {
+                    "Ingoing": 76440,
+                    "Outgoing": 36144,
+                    "Total": 112584
+                },
+                "Packets statistics": {
+                    "Ingoing": 32,
+                    "Outgoing": 32,
+                    "Total": 64
+                }
+            },
+            "Session 7": {
+                "Start time": "1682065051",
+                "End time": "1682065411",
+                "Total duration": "360",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63222",
+                "Bits statistics": {
+                    "Ingoing": 90112,
+                    "Outgoing": 39552,
+                    "Total": 129664
+                },
+                "Packets statistics": {
+                    "Ingoing": 39,
+                    "Outgoing": 38,
+                    "Total": 77
+                }
+            },
+            "Session 8": {
+                "Start time": "1682066387",
+                "End time": "1682066628",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63332",
+                "Bits statistics": {
+                    "Ingoing": 68096,
+                    "Outgoing": 24120,
+                    "Total": 92216
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 15,
+                    "Total": 37
+                }
+            },
+            "Session 9": {
+                "Start time": "1682067187",
+                "End time": "1682067308",
+                "Total duration": "121",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63453",
+                "Bits statistics": {
+                    "Ingoing": 60592,
+                    "Outgoing": 20336,
+                    "Total": 80928
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 11,
+                    "Total": 26
+                }
+            },
+            "Session 10": {
+                "Start time": "1682067921",
+                "End time": "1682068186",
+                "Total duration": "265",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63506",
+                "Bits statistics": {
+                    "Ingoing": 99328,
+                    "Outgoing": 34048,
+                    "Total": 133376
+                },
+                "Packets statistics": {
+                    "Ingoing": 39,
+                    "Outgoing": 26,
+                    "Total": 65
+                }
+            },
+            "Session 11": {
+                "Start time": "1682069133",
+                "End time": "1682069373",
+                "Total duration": "240",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63575",
+                "Bits statistics": {
+                    "Ingoing": 104640,
+                    "Outgoing": 36952,
+                    "Total": 141592
+                },
+                "Packets statistics": {
+                    "Ingoing": 30,
+                    "Outgoing": 30,
+                    "Total": 60
+                }
+            },
+            "Session 12": {
+                "Start time": "1682070049",
+                "End time": "1682070337",
+                "Total duration": "288",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63667",
+                "Bits statistics": {
+                    "Ingoing": 141616,
+                    "Outgoing": 68576,
+                    "Total": 210192
+                },
+                "Packets statistics": {
+                    "Ingoing": 74,
+                    "Outgoing": 74,
+                    "Total": 148
+                }
+            },
+            "Session 13": {
+                "Start time": "1682071034",
+                "End time": "1682071275",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63716",
+                "Bits statistics": {
+                    "Ingoing": 76096,
+                    "Outgoing": 26280,
+                    "Total": 102376
+                },
+                "Packets statistics": {
+                    "Ingoing": 25,
+                    "Outgoing": 25,
+                    "Total": 50
+                }
+            },
+            "Session 14": {
+                "Start time": "1682074102",
+                "End time": "1682074463",
+                "Total duration": "361",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63875",
+                "Bits statistics": {
+                    "Ingoing": 67592,
+                    "Outgoing": 23216,
+                    "Total": 90808
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 15,
+                    "Total": 37
+                }
+            },
+            "Session 15": {
+                "Start time": "1682074992",
+                "End time": "1682075233",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64020",
+                "Bits statistics": {
+                    "Ingoing": 67056,
+                    "Outgoing": 24336,
+                    "Total": 91392
+                },
+                "Packets statistics": {
+                    "Ingoing": 21,
+                    "Outgoing": 17,
+                    "Total": 38
+                }
+            },
+            "Session 16": {
+                "Start time": "1682075660",
+                "End time": "1682075903",
+                "Total duration": "243",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64044",
+                "Bits statistics": {
+                    "Ingoing": 70616,
+                    "Outgoing": 29936,
+                    "Total": 100552
+                },
+                "Packets statistics": {
+                    "Ingoing": 27,
+                    "Outgoing": 25,
+                    "Total": 52
+                }
+            },
+            "Session 17": {
+                "Start time": "1682077955",
+                "End time": "1682078188",
+                "Total duration": "233",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64310",
+                "Bits statistics": {
+                    "Ingoing": 94160,
+                    "Outgoing": 44024,
+                    "Total": 138184
+                },
+                "Packets statistics": {
+                    "Ingoing": 46,
+                    "Outgoing": 42,
+                    "Total": 88
+                }
+            },
+            "Session 18": {
+                "Start time": "1682078768",
+                "End time": "1682079010",
+                "Total duration": "242",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64334",
+                "Bits statistics": {
+                    "Ingoing": 73176,
+                    "Outgoing": 28464,
+                    "Total": 101640
+                },
+                "Packets statistics": {
+                    "Ingoing": 23,
+                    "Outgoing": 21,
+                    "Total": 44
+                }
+            },
+            "Session 19": {
+                "Start time": "1682079332",
+                "End time": "1682079572",
+                "Total duration": "240",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64350",
+                "Bits statistics": {
+                    "Ingoing": 59496,
+                    "Outgoing": 18000,
+                    "Total": 77496
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 14,
+                    "Total": 29
+                }
+            },
+            "Session 20": {
+                "Start time": "1682080272",
+                "End time": "1682080634",
+                "Total duration": "362",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64433",
+                "Bits statistics": {
+                    "Ingoing": 184560,
+                    "Outgoing": 140952,
+                    "Total": 325512
+                },
+                "Packets statistics": {
+                    "Ingoing": 54,
+                    "Outgoing": 54,
+                    "Total": 108
+                }
+            },
+            "Session 21": {
+                "Start time": "1682081358",
+                "End time": "1682081599",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64583",
+                "Bits statistics": {
+                    "Ingoing": 61552,
+                    "Outgoing": 23576,
+                    "Total": 85128
+                },
+                "Packets statistics": {
+                    "Ingoing": 17,
+                    "Outgoing": 17,
+                    "Total": 34
+                }
+            },
+            "Session 22": {
+                "Start time": "1682082743",
+                "End time": "1682082982",
+                "Total duration": "239",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64718",
+                "Bits statistics": {
+                    "Ingoing": 104184,
+                    "Outgoing": 42296,
+                    "Total": 146480
+                },
+                "Packets statistics": {
+                    "Ingoing": 44,
+                    "Outgoing": 39,
+                    "Total": 83
+                }
+            },
+            "Session 23": {
+                "Start time": "1682083500",
+                "End time": "1682083502",
+                "Total duration": "2",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": [
+                    "64864",
+                    "64871"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 313592,
+                    "Outgoing": 54424,
+                    "Total": 368016
+                },
+                "Packets statistics": {
+                    "Ingoing": 65,
+                    "Outgoing": 59,
+                    "Total": 124
+                }
+            },
+            "Session 24": {
+                "Start time": "1682106053",
+                "End time": "1682106376",
+                "Total duration": "323",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "55000",
+                "Bits statistics": {
+                    "Ingoing": 67600,
+                    "Outgoing": 24840,
+                    "Total": 92440
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 18,
+                    "Total": 40
+                }
+            },
+            "Session 25": {
+                "Start time": "1682107361",
+                "End time": "1682107603",
+                "Total duration": "242",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "55096",
+                "Bits statistics": {
+                    "Ingoing": 101000,
+                    "Outgoing": 36680,
+                    "Total": 137680
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 31,
+                    "Total": 62
+                }
+            }
+        },
+        "172.65.229.194": {
+            "Session 1": {
+                "Start time": "1682059263",
+                "End time": "1682059329",
+                "Total duration": "66",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": [
+                    "62756",
+                    "62761"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 417424,
+                    "Outgoing": 60712,
+                    "Total": 478136
+                },
+                "Packets statistics": {
+                    "Ingoing": 70,
+                    "Outgoing": 71,
+                    "Total": 141
+                }
+            },
+            "Session 2": {
+                "Start time": "1682063398",
+                "End time": "1682063461",
+                "Total duration": "63",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "63047",
+                "Bits statistics": {
+                    "Ingoing": 117176,
+                    "Outgoing": 40544,
+                    "Total": 157720
+                },
+                "Packets statistics": {
+                    "Ingoing": 38,
+                    "Outgoing": 40,
+                    "Total": 78
+                }
+            },
+            "Session 3": {
+                "Start time": "1682065069",
+                "End time": "1682065139",
+                "Total duration": "70",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "63230",
+                "Bits statistics": {
+                    "Ingoing": 306968,
+                    "Outgoing": 51280,
+                    "Total": 358248
+                },
+                "Packets statistics": {
+                    "Ingoing": 51,
+                    "Outgoing": 63,
+                    "Total": 114
+                }
+            },
+            "Session 4": {
+                "Start time": "1682069283",
+                "End time": "1682069344",
+                "Total duration": "61",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "63585",
+                "Bits statistics": {
+                    "Ingoing": 93360,
+                    "Outgoing": 29392,
+                    "Total": 122752
+                },
+                "Packets statistics": {
+                    "Ingoing": 26,
+                    "Outgoing": 28,
+                    "Total": 54
+                }
+            },
+            "Session 5": {
+                "Start time": "1682106265",
+                "End time": "1682106326",
+                "Total duration": "61",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "55036",
+                "Bits statistics": {
+                    "Ingoing": 359848,
+                    "Outgoing": 39800,
+                    "Total": 399648
+                },
+                "Packets statistics": {
+                    "Ingoing": 57,
+                    "Outgoing": 49,
+                    "Total": 106
+                }
+            }
+        },
+        "2a00:1450:400e:802::2004": {
+            "Session 1": {
+                "Start time": "1682061025",
+                "End time": "1682061266",
+                "Total duration": "241",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:802::2004",
+                "Port": "62830",
+                "Bits statistics": {
+                    "Ingoing": 4670392,
+                    "Outgoing": 352944,
+                    "Total": 5023336
+                },
+                "Packets statistics": {
+                    "Ingoing": 496,
+                    "Outgoing": 362,
+                    "Total": 858
+                }
+            }
+        },
+        "45.60.76.225": {
+            "Session 1": {
+                "Start time": "1682061029",
+                "End time": "1682061221",
+                "Total duration": "192",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "62833",
+                "Bits statistics": {
+                    "Ingoing": 39151656,
+                    "Outgoing": 2614816,
+                    "Total": 41766472
+                },
+                "Packets statistics": {
+                    "Ingoing": 3317,
+                    "Outgoing": 2391,
+                    "Total": 5708
+                }
+            },
+            "Session 2": {
+                "Start time": "1682062890",
+                "End time": "1682063010",
+                "Total duration": "120",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63007",
+                "Bits statistics": {
+                    "Ingoing": 62784,
+                    "Outgoing": 259872,
+                    "Total": 322656
+                },
+                "Packets statistics": {
+                    "Ingoing": 30,
+                    "Outgoing": 32,
+                    "Total": 62
+                }
+            },
+            "Session 3": {
+                "Start time": "1682065194",
+                "End time": "1682065411",
+                "Total duration": "217",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63245",
+                "Bits statistics": {
+                    "Ingoing": 71160,
+                    "Outgoing": 263040,
+                    "Total": 334200
+                },
+                "Packets statistics": {
+                    "Ingoing": 33,
+                    "Outgoing": 38,
+                    "Total": 71
+                }
+            },
+            "Session 4": {
+                "Start time": "1682069337",
+                "End time": "1682069493",
+                "Total duration": "156",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63593",
+                "Bits statistics": {
+                    "Ingoing": 62488,
+                    "Outgoing": 263104,
+                    "Total": 325592
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 38,
+                    "Total": 69
+                }
+            },
+            "Session 5": {
+                "Start time": "1682073652",
+                "End time": "1682073774",
+                "Total duration": "122",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63868",
+                "Bits statistics": {
+                    "Ingoing": 58552,
+                    "Outgoing": 259312,
+                    "Total": 317864
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 31,
+                    "Total": 53
+                }
+            },
+            "Session 6": {
+                "Start time": "1682079639",
+                "End time": "1682079813",
+                "Total duration": "174",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "64424",
+                "Bits statistics": {
+                    "Ingoing": 64368,
+                    "Outgoing": 261392,
+                    "Total": 325760
+                },
+                "Packets statistics": {
+                    "Ingoing": 33,
+                    "Outgoing": 35,
+                    "Total": 68
+                }
+            },
+            "Session 7": {
+                "Start time": "1682090830",
+                "End time": "1682090951",
+                "Total duration": "121",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "50283",
+                "Bits statistics": {
+                    "Ingoing": 63600,
+                    "Outgoing": 260840,
+                    "Total": 324440
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 34,
+                    "Total": 65
+                }
+            },
+            "Session 8": {
+                "Start time": "1682105793",
+                "End time": "1682105914",
+                "Total duration": "121",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "54995",
+                "Bits statistics": {
+                    "Ingoing": 65560,
+                    "Outgoing": 261224,
+                    "Total": 326784
+                },
+                "Packets statistics": {
+                    "Ingoing": 35,
+                    "Outgoing": 34,
+                    "Total": 69
+                }
+            }
+        },
+        "104.66.99.100": {
+            "Session 1": {
+                "Start time": "1682061031",
+                "End time": "1682061158",
+                "Total duration": "127",
+                "Domain name": "www.brighttalk.com",
+                "IP address": "104.66.99.100",
+                "Port": "62838",
+                "Bits statistics": {
+                    "Ingoing": 1417992,
+                    "Outgoing": 76720,
+                    "Total": 1494712
+                },
+                "Packets statistics": {
+                    "Ingoing": 154,
+                    "Outgoing": 113,
+                    "Total": 267
+                }
+            }
+        },
+        "13.225.239.53": {
+            "Session 1": {
+                "Start time": "1682062176",
+                "End time": "1682062354",
+                "Total duration": "178",
+                "Domain name": "www.mindmup.com",
+                "IP address": "13.225.239.53",
+                "Port": "62952",
+                "Bits statistics": {
+                    "Ingoing": 1618056,
+                    "Outgoing": 97560,
+                    "Total": 1715616
+                },
+                "Packets statistics": {
+                    "Ingoing": 158,
+                    "Outgoing": 140,
+                    "Total": 298
+                }
+            }
+        },
+        "2a00:1450:400e:801::2004": {
+            "Session 1": {
+                "Start time": "1682062178",
+                "End time": "1682062420",
+                "Total duration": "242",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:801::2004",
+                "Port": "62957",
+                "Bits statistics": {
+                    "Ingoing": 2360992,
+                    "Outgoing": 218784,
+                    "Total": 2579776
+                },
+                "Packets statistics": {
+                    "Ingoing": 247,
+                    "Outgoing": 275,
+                    "Total": 522
+                }
+            },
+            "Session 2": {
+                "Start time": "1682107356",
+                "End time": "1682107598",
+                "Total duration": "242",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:801::2004",
+                "Port": "55094",
+                "Bits statistics": {
+                    "Ingoing": 61504,
+                    "Outgoing": 24240,
+                    "Total": 85744
+                },
+                "Packets statistics": {
+                    "Ingoing": 23,
+                    "Outgoing": 22,
+                    "Total": 45
+                }
+            }
+        },
+        "2a00:1450:400e:810::2004": {
+            "Session 1": {
+                "Start time": "1682063743",
+                "End time": "1682063983",
+                "Total duration": "240",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:810::2004",
+                "Port": "63158",
+                "Bits statistics": {
+                    "Ingoing": 5266352,
+                    "Outgoing": 1003704,
+                    "Total": 6270056
+                },
+                "Packets statistics": {
+                    "Ingoing": 644,
+                    "Outgoing": 820,
+                    "Total": 1464
+                }
+            }
+        },
+        "142.250.179.164": {
+            "Session 1": {
+                "Start time": "1682064213",
+                "End time": "1682064560",
+                "Total duration": "347",
+                "Domain name": "www.google.com",
+                "IP address": "142.250.179.164",
+                "Port": "63191",
+                "Bits statistics": {
+                    "Ingoing": 66432,
+                    "Outgoing": 33528,
+                    "Total": 99960
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 31,
+                    "Total": 62
+                }
+            }
+        },
+        "2a00:1450:400e:800::2004": {
+            "Session 1": {
+                "Start time": "1682065543",
+                "End time": "1682066026",
+                "Total duration": "483",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:800::2004",
+                "Port": "63285",
+                "Bits statistics": {
+                    "Ingoing": 11707288,
+                    "Outgoing": 1221576,
+                    "Total": 12928864
+                },
+                "Packets statistics": {
+                    "Ingoing": 1354,
+                    "Outgoing": 980,
+                    "Total": 2334
+                }
+            }
+        },
+        "2a00:1450:400e:810::2003": {
+            "Session 1": {
+                "Start time": "1682065550",
+                "End time": "1682065906",
+                "Total duration": "356",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:810::2003",
+                "Port": "63288",
+                "Bits statistics": {
+                    "Ingoing": 6122928,
+                    "Outgoing": 349792,
+                    "Total": 6472720
+                },
+                "Packets statistics": {
+                    "Ingoing": 636,
+                    "Outgoing": 327,
+                    "Total": 963
+                }
+            }
+        },
+        "162.254.144.167": {
+            "Session 1": {
+                "Start time": "1682065555",
+                "End time": "1682065563",
+                "Total duration": "8",
+                "Domain name": "www.firewall.cx",
+                "IP address": "162.254.144.167",
+                "Port": [
+                    "63290",
+                    "63291",
+                    "63293",
+                    "63292",
+                    "63295",
+                    "63294",
+                    "63296",
+                    "63297"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 6276296,
+                    "Outgoing": 706832,
+                    "Total": 6983128
+                },
+                "Packets statistics": {
+                    "Ingoing": 623,
+                    "Outgoing": 534,
+                    "Total": 1157
+                }
+            }
+        },
+        "2600:9000:21d7:ca00:c:e9f8:3240:93a1": {
+            "Session 1": {
+                "Start time": "1682066422",
+                "End time": "1682066575",
+                "Total duration": "153",
+                "Domain name": "www.interrail.eu",
+                "IP address": "2600:9000:21d7:ca00:c:e9f8:3240:93a1",
+                "Port": "63339",
+                "Bits statistics": {
+                    "Ingoing": 19217968,
+                    "Outgoing": 2870744,
+                    "Total": 22088712
+                },
+                "Packets statistics": {
+                    "Ingoing": 1970,
+                    "Outgoing": 913,
+                    "Total": 2883
+                }
+            }
+        },
+        "104.126.247.102": {
+            "Session 1": {
+                "Start time": "1682066516",
+                "End time": "1682066575",
+                "Total duration": "59",
+                "Domain name": "www.ieee.org",
+                "IP address": "104.126.247.102",
+                "Port": [
+                    "63365",
+                    "63368",
+                    "63369",
+                    "63370",
+                    "63371",
+                    "63372"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 726608,
+                    "Outgoing": 144720,
+                    "Total": 871328
+                },
+                "Packets statistics": {
+                    "Ingoing": 138,
+                    "Outgoing": 107,
+                    "Total": 245
+                }
+            }
+        },
+        "162.159.136.70": {
+            "Session 1": {
+                "Start time": "1682066556",
+                "End time": "1682066749",
+                "Total duration": "193",
+                "Domain name": "www.sciencedirect.com",
+                "IP address": "162.159.136.70",
+                "Port": "63383",
+                "Bits statistics": {
+                    "Ingoing": 308864,
+                    "Outgoing": 28952,
+                    "Total": 337816
+                },
+                "Packets statistics": {
+                    "Ingoing": 35,
+                    "Outgoing": 24,
+                    "Total": 59
+                }
+            }
+        },
+        "188.166.174.207": {
+            "Session 1": {
+                "Start time": "1682066560",
+                "End time": "1682066628",
+                "Total duration": "68",
+                "Domain name": "www.linkblock.net",
+                "IP address": "188.166.174.207",
+                "Port": "63392",
+                "Bits statistics": {
+                    "Ingoing": 174672,
+                    "Outgoing": 24152,
+                    "Total": 198824
+                },
+                "Packets statistics": {
+                    "Ingoing": 29,
+                    "Outgoing": 26,
+                    "Total": 55
+                }
+            }
+        },
+        "2a00:1450:400e:802::2003": {
+            "Session 1": {
+                "Start time": "1682066560",
+                "End time": "1682066575",
+                "Total duration": "15",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:802::2003",
+                "Port": "63394",
+                "Bits statistics": {
+                    "Ingoing": 1522864,
+                    "Outgoing": 68536,
+                    "Total": 1591400
+                },
+                "Packets statistics": {
+                    "Ingoing": 152,
+                    "Outgoing": 88,
+                    "Total": 240
+                }
+            }
+        },
+        "190.115.31.218": {
+            "Session 1": {
+                "Start time": "1682066566",
+                "End time": "1682066690",
+                "Total duration": "124",
+                "Domain name": "www.sci-hub.ru",
+                "IP address": "190.115.31.218",
+                "Port": "63396",
+                "Bits statistics": {
+                    "Ingoing": 14930424,
+                    "Outgoing": 297616,
+                    "Total": 15228040
+                },
+                "Packets statistics": {
+                    "Ingoing": 1308,
+                    "Outgoing": 529,
+                    "Total": 1837
+                }
+            }
+        },
+        "2a00:1450:400e:802::200e": {
+            "Session 1": {
+                "Start time": "1682067846",
+                "End time": "1682068065",
+                "Total duration": "219",
+                "Domain name": "www.googleoptimize.com",
+                "IP address": "2a00:1450:400e:802::200e",
+                "Port": "63490",
+                "Bits statistics": {
+                    "Ingoing": 491024,
+                    "Outgoing": 42320,
+                    "Total": 533344
+                },
+                "Packets statistics": {
+                    "Ingoing": 62,
+                    "Outgoing": 43,
+                    "Total": 105
+                }
+            }
+        },
+        "81.243.1.216": {
+            "Session 1": {
+                "Start time": "1682071163",
+                "End time": "1682071294",
+                "Total duration": "131",
+                "Domain name": "www.pathe.be",
+                "IP address": "81.243.1.216",
+                "Port": "63723",
+                "Bits statistics": {
+                    "Ingoing": 364536,
+                    "Outgoing": 185248,
+                    "Total": 549784
+                },
+                "Packets statistics": {
+                    "Ingoing": 56,
+                    "Outgoing": 288,
+                    "Total": 344
+                }
+            }
+        },
+        "2606:4700:3031::6815:3edc": {
+            "Session 1": {
+                "Start time": "1682076452",
+                "End time": "1682076584",
+                "Total duration": "132",
+                "Domain name": "www.lagomframework.com",
+                "IP address": "2606:4700:3031::6815:3edc",
+                "Port": "64122",
+                "Bits statistics": {
+                    "Ingoing": 1035360,
+                    "Outgoing": 153328,
+                    "Total": 1188688
+                },
+                "Packets statistics": {
+                    "Ingoing": 131,
+                    "Outgoing": 183,
+                    "Total": 314
+                }
+            }
+        },
+        "104.47.155.195": {
+            "Session 1": {
+                "Start time": "1682076943",
+                "End time": "1682076975",
+                "Total duration": "32",
+                "Domain name": "www.like2sport.com",
+                "IP address": "104.47.155.195",
+                "Port": "64170",
+                "Bits statistics": {
+                    "Ingoing": 267976,
+                    "Outgoing": 22456,
+                    "Total": 290432
+                },
+                "Packets statistics": {
+                    "Ingoing": 26,
+                    "Outgoing": 24,
+                    "Total": 50
+                }
+            }
+        },
+        "2a00:1450:400e:811::2003": {
+            "Session 1": {
+                "Start time": "1682076969",
+                "End time": "1682077192",
+                "Total duration": "223",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:811::2003",
+                "Port": "64194",
+                "Bits statistics": {
+                    "Ingoing": 1771584,
+                    "Outgoing": 97088,
+                    "Total": 1868672
+                },
+                "Packets statistics": {
+                    "Ingoing": 190,
+                    "Outgoing": 116,
+                    "Total": 306
+                }
+            }
+        },
+        "152.199.23.133": {
+            "Session 1": {
+                "Start time": "1682077309",
+                "End time": "1682077498",
+                "Total duration": "189",
+                "Domain name": "www.lesechos.fr",
+                "IP address": "152.199.23.133",
+                "Port": "64212",
+                "Bits statistics": {
+                    "Ingoing": 951688,
+                    "Outgoing": 83096,
+                    "Total": 1034784
+                },
+                "Packets statistics": {
+                    "Ingoing": 96,
+                    "Outgoing": 86,
+                    "Total": 182
+                }
+            }
+        },
+        "51.210.215.109": {
+            "Session 1": {
+                "Start time": "1682077318",
+                "End time": "1682077554",
+                "Total duration": "236",
+                "Domain name": "www.ultimedia.com",
+                "IP address": "51.210.215.109",
+                "Port": "64235",
+                "Bits statistics": {
+                    "Ingoing": 189128,
+                    "Outgoing": 173864,
+                    "Total": 362992
+                },
+                "Packets statistics": {
+                    "Ingoing": 54,
+                    "Outgoing": 72,
+                    "Total": 126
+                }
+            }
+        },
+        "2a00:1450:400e:805::2004": {
+            "Session 1": {
+                "Start time": "1682078800",
+                "End time": "1682079162",
+                "Total duration": "362",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:805::2004",
+                "Port": "64335",
+                "Bits statistics": {
+                    "Ingoing": 68944,
+                    "Outgoing": 23128,
+                    "Total": 92072
+                },
+                "Packets statistics": {
+                    "Ingoing": 20,
+                    "Outgoing": 19,
+                    "Total": 39
+                }
+            }
+        },
+        "64.13.224.11": {
+            "Session 1": {
+                "Start time": "1682079500",
+                "End time": "1682079568",
+                "Total duration": "68",
+                "Domain name": "www.alleydog.com",
+                "IP address": "64.13.224.11",
+                "Port": "64364",
+                "Bits statistics": {
+                    "Ingoing": 2140576,
+                    "Outgoing": 90448,
+                    "Total": 2231024
+                },
+                "Packets statistics": {
+                    "Ingoing": 203,
+                    "Outgoing": 120,
+                    "Total": 323
+                }
+            }
+        },
+        "2606:4700::6811:2169": {
+            "Session 1": {
+                "Start time": "1682079513",
+                "End time": "1682079516",
+                "Total duration": "3",
+                "Domain name": "www.researchgate.net",
+                "IP address": "2606:4700::6811:2169",
+                "Port": [
+                    "64375",
+                    "64380"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 1754192,
+                    "Outgoing": 159760,
+                    "Total": 1913952
+                },
+                "Packets statistics": {
+                    "Ingoing": 218,
+                    "Outgoing": 172,
+                    "Total": 390
+                }
+            }
+        },
+        "34.160.17.71": {
+            "Session 1": {
+                "Start time": "1682079530",
+                "End time": "1682079692",
+                "Total duration": "162",
+                "Domain name": "www.arimetrics.com",
+                "IP address": "34.160.17.71",
+                "Port": "64388",
+                "Bits statistics": {
+                    "Ingoing": 8374360,
+                    "Outgoing": 347824,
+                    "Total": 8722184
+                },
+                "Packets statistics": {
+                    "Ingoing": 745,
+                    "Outgoing": 485,
+                    "Total": 1230
+                }
+            }
+        },
+        "2a00:1450:400e:801::2003": {
+            "Session 1": {
+                "Start time": "1682079535",
+                "End time": "1682079692",
+                "Total duration": "157",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:801::2003",
+                "Port": "64398",
+                "Bits statistics": {
+                    "Ingoing": 260200,
+                    "Outgoing": 28008,
+                    "Total": 288208
+                },
+                "Packets statistics": {
+                    "Ingoing": 37,
+                    "Outgoing": 28,
+                    "Total": 65
+                }
+            }
+        },
+        "2a00:1450:400e:801::200e": {
+            "Session 1": {
+                "Start time": "1682080615",
+                "End time": "1682080755",
+                "Total duration": "140",
+                "Domain name": "www.googleoptimize.com",
+                "IP address": "2a00:1450:400e:801::200e",
+                "Port": "64443",
+                "Bits statistics": {
+                    "Ingoing": 481848,
+                    "Outgoing": 34120,
+                    "Total": 515968
+                },
+                "Packets statistics": {
+                    "Ingoing": 54,
+                    "Outgoing": 38,
+                    "Total": 92
+                }
+            }
+        },
+        "35.190.31.54": {
+            "Session 1": {
+                "Start time": "1682080690",
+                "End time": "1682080875",
+                "Total duration": "185",
+                "Domain name": "www.arimetrics.com",
+                "IP address": "35.190.31.54",
+                "Port": "64475",
+                "Bits statistics": {
+                    "Ingoing": 687632,
+                    "Outgoing": 170816,
+                    "Total": 858448
+                },
+                "Packets statistics": {
+                    "Ingoing": 126,
+                    "Outgoing": 117,
+                    "Total": 243
+                }
+            }
+        },
+        "104.102.19.76": {
+            "Session 1": {
+                "Start time": "1682080749",
+                "End time": "1682080809",
+                "Total duration": "60",
+                "Domain name": "www.ieee.org",
+                "IP address": "104.102.19.76",
+                "Port": [
+                    "64500",
+                    "64502",
+                    "64503",
+                    "64504",
+                    "64505",
+                    "64506"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 384336,
+                    "Outgoing": 134784,
+                    "Total": 519120
+                },
+                "Packets statistics": {
+                    "Ingoing": 96,
+                    "Outgoing": 87,
+                    "Total": 183
+                }
+            },
+            "Session 2": {
+                "Start time": "1682080963",
+                "End time": "1682081008",
+                "Total duration": "45",
+                "Domain name": "www.ieee.org",
+                "IP address": "104.102.19.76",
+                "Port": [
+                    "64559",
+                    "64560"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 113440,
+                    "Outgoing": 56920,
+                    "Total": 170360
+                },
+                "Packets statistics": {
+                    "Ingoing": 33,
+                    "Outgoing": 31,
+                    "Total": 64
+                }
+            }
+        },
+        "2a00:1450:400e:803::2003": {
+            "Session 1": {
+                "Start time": "1682081598",
+                "End time": "1682081839",
+                "Total duration": "241",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:803::2003",
+                "Port": "64616",
+                "Bits statistics": {
+                    "Ingoing": 1182704,
+                    "Outgoing": 90872,
+                    "Total": 1273576
+                },
+                "Packets statistics": {
+                    "Ingoing": 125,
+                    "Outgoing": 112,
+                    "Total": 237
+                }
+            }
+        },
+        "164.15.59.215": {
+            "Session 1": {
+                "Start time": "1682085766",
+                "End time": "1682085771",
+                "Total duration": "5",
+                "Domain name": "www.ulb.be",
+                "IP address": "164.15.59.215",
+                "Port": [
+                    "65149",
+                    "65154",
+                    "65156",
+                    "65158"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 24254984,
+                    "Outgoing": 1022200,
+                    "Total": 25277184
+                },
+                "Packets statistics": {
+                    "Ingoing": 2054,
+                    "Outgoing": 2080,
+                    "Total": 4134
+                }
+            },
+            "Session 2": {
+                "Start time": "1682085781",
+                "End time": "1682085791",
+                "Total duration": "10",
+                "Domain name": "www.ulb.be",
+                "IP address": "164.15.59.215",
+                "Port": [
+                    "65170",
+                    "65171"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 60856,
+                    "Outgoing": 24560,
+                    "Total": 85416
+                },
+                "Packets statistics": {
+                    "Ingoing": 18,
+                    "Outgoing": 19,
+                    "Total": 37
+                }
+            }
+        },
+        "13.225.21.141": {
+            "Session 1": {
+                "Start time": "1682085780",
+                "End time": "1682085900",
+                "Total duration": "120",
+                "Domain name": "www.mozilla.org",
+                "IP address": "13.225.21.141",
+                "Port": "65165",
+                "Bits statistics": {
+                    "Ingoing": 57424,
+                    "Outgoing": 11320,
+                    "Total": 68744
+                },
+                "Packets statistics": {
+                    "Ingoing": 14,
+                    "Outgoing": 10,
+                    "Total": 24
+                }
+            }
+        },
+        "2a05:d014:776:a63d:6339:2a28:fc90:eea": {
+            "Session 1": {
+                "Start time": "1682106087",
+                "End time": "1682106148",
+                "Total duration": "61",
+                "Domain name": "www.zoobelgique.com",
+                "IP address": "2a05:d014:776:a63d:6339:2a28:fc90:eea",
+                "Port": "55020",
+                "Bits statistics": {
+                    "Ingoing": 1676248,
+                    "Outgoing": 90528,
+                    "Total": 1766776
+                },
+                "Packets statistics": {
+                    "Ingoing": 153,
+                    "Outgoing": 120,
+                    "Total": 273
+                }
+            }
+        },
+        "89.36.74.185": {
+            "Session 1": {
+                "Start time": "1682106093",
+                "End time": "1682106159",
+                "Total duration": "66",
+                "Domain name": "www.zooplanckendael.be",
+                "IP address": "89.36.74.185",
+                "Port": "55024",
+                "Bits statistics": {
+                    "Ingoing": 3157008,
+                    "Outgoing": 77048,
+                    "Total": 3234056
+                },
+                "Packets statistics": {
+                    "Ingoing": 272,
+                    "Outgoing": 136,
+                    "Total": 408
+                }
+            }
+        }
+    },
+    "Markov chain": {
+        "www.pathe.be": {
+            "www.pathe.be": 33.33333333333333,
+            "www.google.be": 33.33333333333333,
+            "www.lagomframework.com": 33.33333333333333
+        },
+        "www.google.be": {
+            "www.overleaf.com": 100.0
+        },
+        "www.overleaf.com": {
+            "www.overleaf.com": 4.0,
+            "www.deepl.com": 4.0
+        },
+        "www.deepl.com": {
+            "www.deepl.com": 20.0,
+            "www.google.com": 20.0
+        },
+        "www.google.com": {
+            "www.imperva.com": 14.285714285714285,
+            "www.google.com": 14.285714285714285,
+            "www.gstatic.com": 14.285714285714285,
+            "www.alleydog.com": 14.285714285714285
+        },
+        "www.imperva.com": {
+            "www.imperva.com": 12.5,
+            "www.brighttalk.com": 12.5
+        },
+        "www.brighttalk.com": {
+            "www.mindmup.com": 100.0
+        },
+        "www.mindmup.com": {
+            "www.google.com": 100.0
+        },
+        "www.gstatic.com": {
+            "www.firewall.cx": 20.0,
+            "www.sci-hub.ru": 20.0,
+            "www.lesechos.fr": 20.0,
+            "www.googleoptimize.com": 20.0,
+            "www.ulb.be": 20.0
+        },
+        "www.firewall.cx": {
+            "www.interrail.eu": 100.0
+        },
+        "www.interrail.eu": {
+            "www.ieee.org": 100.0
+        },
+        "www.ieee.org": {
+            "www.sciencedirect.com": 33.33333333333333,
+            "www.ieee.org": 33.33333333333333,
+            "www.gstatic.com": 33.33333333333333
+        },
+        "www.sciencedirect.com": {
+            "www.linkblock.net": 100.0
+        },
+        "www.linkblock.net": {
+            "www.gstatic.com": 100.0
+        },
+        "www.sci-hub.ru": {
+            "www.googleoptimize.com": 100.0
+        },
+        "www.googleoptimize.com": {
+            "www.pathe.be": 50.0,
+            "www.arimetrics.com": 50.0
+        },
+        "www.lagomframework.com": {
+            "www.like2sport.com": 100.0
+        },
+        "www.like2sport.com": {
+            "www.gstatic.com": 100.0
+        },
+        "www.lesechos.fr": {
+            "www.ultimedia.com": 100.0
+        },
+        "www.ultimedia.com": {
+            "www.google.com": 100.0
+        },
+        "www.alleydog.com": {
+            "www.researchgate.net": 100.0
+        },
+        "www.researchgate.net": {
+            "www.arimetrics.com": 100.0
+        },
+        "www.arimetrics.com": {
+            "www.gstatic.com": 50.0,
+            "www.ieee.org": 50.0
+        },
+        "www.ulb.be": {
+            "www.ulb.be": 50.0,
+            "www.mozilla.org": 50.0
+        },
+        "www.mozilla.org": {
+            "www.zoobelgique.com": 100.0
+        },
+        "www.zoobelgique.com": {
+            "www.zooplanckendael.be": 100.0
+        }
+    },
+    "Timeline": {
+        "1682058672": [
+            {
+                "Start time": "1682058672",
+                "End time": "1682058793",
+                "Total duration": "121",
+                "Domain name": "www.pathe.be",
+                "IP address": "81.243.1.152",
+                "Port": [
+                    "62717",
+                    "62718",
+                    "62719"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 420984,
+                    "Outgoing": 55480,
+                    "Total": 476464
+                },
+                "Packets statistics": {
+                    "Ingoing": 74,
+                    "Outgoing": 66,
+                    "Total": 140
+                }
+            }
+        ],
+        "1682076941": [
+            {
+                "Start time": "1682076941",
+                "End time": "1682077063",
+                "Total duration": "122",
+                "Domain name": "www.pathe.be",
+                "IP address": "81.243.1.152",
+                "Port": "64166",
+                "Bits statistics": {
+                    "Ingoing": 2241640,
+                    "Outgoing": 110376,
+                    "Total": 2352016
+                },
+                "Packets statistics": {
+                    "Ingoing": 210,
+                    "Outgoing": 163,
+                    "Total": 373
+                }
+            }
+        ],
+        "1682058673": [
+            {
+                "Start time": "1682058673",
+                "End time": "1682058914",
+                "Total duration": "241",
+                "Domain name": "www.google.be",
+                "IP address": "2a00:1450:400e:80c::2003",
+                "Port": [
+                    "62721",
+                    "62726",
+                    "62731"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 1933912,
+                    "Outgoing": 120216,
+                    "Total": 2054128
+                },
+                "Packets statistics": {
+                    "Ingoing": 242,
+                    "Outgoing": 135,
+                    "Total": 377
+                }
+            },
+            {
+                "Start time": "1682058673",
+                "End time": "1682059155",
+                "Total duration": "482",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62722",
+                "Bits statistics": {
+                    "Ingoing": 9135648,
+                    "Outgoing": 551040,
+                    "Total": 9686688
+                },
+                "Packets statistics": {
+                    "Ingoing": 1002,
+                    "Outgoing": 521,
+                    "Total": 1523
+                }
+            }
+        ],
+        "1682059246": [
+            {
+                "Start time": "1682059246",
+                "End time": "1682059367",
+                "Total duration": "121",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62753",
+                "Bits statistics": {
+                    "Ingoing": 60592,
+                    "Outgoing": 21416,
+                    "Total": 82008
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 13,
+                    "Total": 28
+                }
+            }
+        ],
+        "1682060691": [
+            {
+                "Start time": "1682060691",
+                "End time": "1682060932",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62817",
+                "Bits statistics": {
+                    "Ingoing": 71648,
+                    "Outgoing": 28424,
+                    "Total": 100072
+                },
+                "Packets statistics": {
+                    "Ingoing": 23,
+                    "Outgoing": 22,
+                    "Total": 45
+                }
+            }
+        ],
+        "1682061480": [
+            {
+                "Start time": "1682061480",
+                "End time": "1682061600",
+                "Total duration": "120",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62898",
+                "Bits statistics": {
+                    "Ingoing": 59496,
+                    "Outgoing": 18200,
+                    "Total": 77696
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 14,
+                    "Total": 29
+                }
+            }
+        ],
+        "1682062071": [
+            {
+                "Start time": "1682062071",
+                "End time": "1682062475",
+                "Total duration": "404",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "62946",
+                "Bits statistics": {
+                    "Ingoing": 118280,
+                    "Outgoing": 52920,
+                    "Total": 171200
+                },
+                "Packets statistics": {
+                    "Ingoing": 50,
+                    "Outgoing": 47,
+                    "Total": 97
+                }
+            }
+        ],
+        "1682063775": [
+            {
+                "Start time": "1682063775",
+                "End time": "1682063945",
+                "Total duration": "170",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63175",
+                "Bits statistics": {
+                    "Ingoing": 76440,
+                    "Outgoing": 36144,
+                    "Total": 112584
+                },
+                "Packets statistics": {
+                    "Ingoing": 32,
+                    "Outgoing": 32,
+                    "Total": 64
+                }
+            }
+        ],
+        "1682065051": [
+            {
+                "Start time": "1682065051",
+                "End time": "1682065411",
+                "Total duration": "360",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63222",
+                "Bits statistics": {
+                    "Ingoing": 90112,
+                    "Outgoing": 39552,
+                    "Total": 129664
+                },
+                "Packets statistics": {
+                    "Ingoing": 39,
+                    "Outgoing": 38,
+                    "Total": 77
+                }
+            }
+        ],
+        "1682066387": [
+            {
+                "Start time": "1682066387",
+                "End time": "1682066628",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63332",
+                "Bits statistics": {
+                    "Ingoing": 68096,
+                    "Outgoing": 24120,
+                    "Total": 92216
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 15,
+                    "Total": 37
+                }
+            }
+        ],
+        "1682067187": [
+            {
+                "Start time": "1682067187",
+                "End time": "1682067308",
+                "Total duration": "121",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63453",
+                "Bits statistics": {
+                    "Ingoing": 60592,
+                    "Outgoing": 20336,
+                    "Total": 80928
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 11,
+                    "Total": 26
+                }
+            }
+        ],
+        "1682067921": [
+            {
+                "Start time": "1682067921",
+                "End time": "1682068186",
+                "Total duration": "265",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63506",
+                "Bits statistics": {
+                    "Ingoing": 99328,
+                    "Outgoing": 34048,
+                    "Total": 133376
+                },
+                "Packets statistics": {
+                    "Ingoing": 39,
+                    "Outgoing": 26,
+                    "Total": 65
+                }
+            }
+        ],
+        "1682069133": [
+            {
+                "Start time": "1682069133",
+                "End time": "1682069373",
+                "Total duration": "240",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63575",
+                "Bits statistics": {
+                    "Ingoing": 104640,
+                    "Outgoing": 36952,
+                    "Total": 141592
+                },
+                "Packets statistics": {
+                    "Ingoing": 30,
+                    "Outgoing": 30,
+                    "Total": 60
+                }
+            }
+        ],
+        "1682070049": [
+            {
+                "Start time": "1682070049",
+                "End time": "1682070337",
+                "Total duration": "288",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63667",
+                "Bits statistics": {
+                    "Ingoing": 141616,
+                    "Outgoing": 68576,
+                    "Total": 210192
+                },
+                "Packets statistics": {
+                    "Ingoing": 74,
+                    "Outgoing": 74,
+                    "Total": 148
+                }
+            }
+        ],
+        "1682071034": [
+            {
+                "Start time": "1682071034",
+                "End time": "1682071275",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63716",
+                "Bits statistics": {
+                    "Ingoing": 76096,
+                    "Outgoing": 26280,
+                    "Total": 102376
+                },
+                "Packets statistics": {
+                    "Ingoing": 25,
+                    "Outgoing": 25,
+                    "Total": 50
+                }
+            }
+        ],
+        "1682074102": [
+            {
+                "Start time": "1682074102",
+                "End time": "1682074463",
+                "Total duration": "361",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "63875",
+                "Bits statistics": {
+                    "Ingoing": 67592,
+                    "Outgoing": 23216,
+                    "Total": 90808
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 15,
+                    "Total": 37
+                }
+            }
+        ],
+        "1682074992": [
+            {
+                "Start time": "1682074992",
+                "End time": "1682075233",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64020",
+                "Bits statistics": {
+                    "Ingoing": 67056,
+                    "Outgoing": 24336,
+                    "Total": 91392
+                },
+                "Packets statistics": {
+                    "Ingoing": 21,
+                    "Outgoing": 17,
+                    "Total": 38
+                }
+            }
+        ],
+        "1682075660": [
+            {
+                "Start time": "1682075660",
+                "End time": "1682075903",
+                "Total duration": "243",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64044",
+                "Bits statistics": {
+                    "Ingoing": 70616,
+                    "Outgoing": 29936,
+                    "Total": 100552
+                },
+                "Packets statistics": {
+                    "Ingoing": 27,
+                    "Outgoing": 25,
+                    "Total": 52
+                }
+            }
+        ],
+        "1682077955": [
+            {
+                "Start time": "1682077955",
+                "End time": "1682078188",
+                "Total duration": "233",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64310",
+                "Bits statistics": {
+                    "Ingoing": 94160,
+                    "Outgoing": 44024,
+                    "Total": 138184
+                },
+                "Packets statistics": {
+                    "Ingoing": 46,
+                    "Outgoing": 42,
+                    "Total": 88
+                }
+            }
+        ],
+        "1682078768": [
+            {
+                "Start time": "1682078768",
+                "End time": "1682079010",
+                "Total duration": "242",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64334",
+                "Bits statistics": {
+                    "Ingoing": 73176,
+                    "Outgoing": 28464,
+                    "Total": 101640
+                },
+                "Packets statistics": {
+                    "Ingoing": 23,
+                    "Outgoing": 21,
+                    "Total": 44
+                }
+            }
+        ],
+        "1682079332": [
+            {
+                "Start time": "1682079332",
+                "End time": "1682079572",
+                "Total duration": "240",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64350",
+                "Bits statistics": {
+                    "Ingoing": 59496,
+                    "Outgoing": 18000,
+                    "Total": 77496
+                },
+                "Packets statistics": {
+                    "Ingoing": 15,
+                    "Outgoing": 14,
+                    "Total": 29
+                }
+            }
+        ],
+        "1682080272": [
+            {
+                "Start time": "1682080272",
+                "End time": "1682080634",
+                "Total duration": "362",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64433",
+                "Bits statistics": {
+                    "Ingoing": 184560,
+                    "Outgoing": 140952,
+                    "Total": 325512
+                },
+                "Packets statistics": {
+                    "Ingoing": 54,
+                    "Outgoing": 54,
+                    "Total": 108
+                }
+            }
+        ],
+        "1682081358": [
+            {
+                "Start time": "1682081358",
+                "End time": "1682081599",
+                "Total duration": "241",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64583",
+                "Bits statistics": {
+                    "Ingoing": 61552,
+                    "Outgoing": 23576,
+                    "Total": 85128
+                },
+                "Packets statistics": {
+                    "Ingoing": 17,
+                    "Outgoing": 17,
+                    "Total": 34
+                }
+            }
+        ],
+        "1682082743": [
+            {
+                "Start time": "1682082743",
+                "End time": "1682082982",
+                "Total duration": "239",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "64718",
+                "Bits statistics": {
+                    "Ingoing": 104184,
+                    "Outgoing": 42296,
+                    "Total": 146480
+                },
+                "Packets statistics": {
+                    "Ingoing": 44,
+                    "Outgoing": 39,
+                    "Total": 83
+                }
+            }
+        ],
+        "1682083500": [
+            {
+                "Start time": "1682083500",
+                "End time": "1682083502",
+                "Total duration": "2",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": [
+                    "64864",
+                    "64871"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 313592,
+                    "Outgoing": 54424,
+                    "Total": 368016
+                },
+                "Packets statistics": {
+                    "Ingoing": 65,
+                    "Outgoing": 59,
+                    "Total": 124
+                }
+            }
+        ],
+        "1682106053": [
+            {
+                "Start time": "1682106053",
+                "End time": "1682106376",
+                "Total duration": "323",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "55000",
+                "Bits statistics": {
+                    "Ingoing": 67600,
+                    "Outgoing": 24840,
+                    "Total": 92440
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 18,
+                    "Total": 40
+                }
+            }
+        ],
+        "1682107361": [
+            {
+                "Start time": "1682107361",
+                "End time": "1682107603",
+                "Total duration": "242",
+                "Domain name": "www.overleaf.com",
+                "IP address": "34.120.52.64",
+                "Port": "55096",
+                "Bits statistics": {
+                    "Ingoing": 101000,
+                    "Outgoing": 36680,
+                    "Total": 137680
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 31,
+                    "Total": 62
+                }
+            }
+        ],
+        "1682059263": [
+            {
+                "Start time": "1682059263",
+                "End time": "1682059329",
+                "Total duration": "66",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": [
+                    "62756",
+                    "62761"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 417424,
+                    "Outgoing": 60712,
+                    "Total": 478136
+                },
+                "Packets statistics": {
+                    "Ingoing": 70,
+                    "Outgoing": 71,
+                    "Total": 141
+                }
+            }
+        ],
+        "1682063398": [
+            {
+                "Start time": "1682063398",
+                "End time": "1682063461",
+                "Total duration": "63",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "63047",
+                "Bits statistics": {
+                    "Ingoing": 117176,
+                    "Outgoing": 40544,
+                    "Total": 157720
+                },
+                "Packets statistics": {
+                    "Ingoing": 38,
+                    "Outgoing": 40,
+                    "Total": 78
+                }
+            }
+        ],
+        "1682065069": [
+            {
+                "Start time": "1682065069",
+                "End time": "1682065139",
+                "Total duration": "70",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "63230",
+                "Bits statistics": {
+                    "Ingoing": 306968,
+                    "Outgoing": 51280,
+                    "Total": 358248
+                },
+                "Packets statistics": {
+                    "Ingoing": 51,
+                    "Outgoing": 63,
+                    "Total": 114
+                }
+            }
+        ],
+        "1682069283": [
+            {
+                "Start time": "1682069283",
+                "End time": "1682069344",
+                "Total duration": "61",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "63585",
+                "Bits statistics": {
+                    "Ingoing": 93360,
+                    "Outgoing": 29392,
+                    "Total": 122752
+                },
+                "Packets statistics": {
+                    "Ingoing": 26,
+                    "Outgoing": 28,
+                    "Total": 54
+                }
+            }
+        ],
+        "1682106265": [
+            {
+                "Start time": "1682106265",
+                "End time": "1682106326",
+                "Total duration": "61",
+                "Domain name": "www.deepl.com",
+                "IP address": "172.65.229.194",
+                "Port": "55036",
+                "Bits statistics": {
+                    "Ingoing": 359848,
+                    "Outgoing": 39800,
+                    "Total": 399648
+                },
+                "Packets statistics": {
+                    "Ingoing": 57,
+                    "Outgoing": 49,
+                    "Total": 106
+                }
+            }
+        ],
+        "1682061025": [
+            {
+                "Start time": "1682061025",
+                "End time": "1682061266",
+                "Total duration": "241",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:802::2004",
+                "Port": "62830",
+                "Bits statistics": {
+                    "Ingoing": 4670392,
+                    "Outgoing": 352944,
+                    "Total": 5023336
+                },
+                "Packets statistics": {
+                    "Ingoing": 496,
+                    "Outgoing": 362,
+                    "Total": 858
+                }
+            }
+        ],
+        "1682061029": [
+            {
+                "Start time": "1682061029",
+                "End time": "1682061221",
+                "Total duration": "192",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "62833",
+                "Bits statistics": {
+                    "Ingoing": 39151656,
+                    "Outgoing": 2614816,
+                    "Total": 41766472
+                },
+                "Packets statistics": {
+                    "Ingoing": 3317,
+                    "Outgoing": 2391,
+                    "Total": 5708
+                }
+            }
+        ],
+        "1682062890": [
+            {
+                "Start time": "1682062890",
+                "End time": "1682063010",
+                "Total duration": "120",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63007",
+                "Bits statistics": {
+                    "Ingoing": 62784,
+                    "Outgoing": 259872,
+                    "Total": 322656
+                },
+                "Packets statistics": {
+                    "Ingoing": 30,
+                    "Outgoing": 32,
+                    "Total": 62
+                }
+            }
+        ],
+        "1682065194": [
+            {
+                "Start time": "1682065194",
+                "End time": "1682065411",
+                "Total duration": "217",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63245",
+                "Bits statistics": {
+                    "Ingoing": 71160,
+                    "Outgoing": 263040,
+                    "Total": 334200
+                },
+                "Packets statistics": {
+                    "Ingoing": 33,
+                    "Outgoing": 38,
+                    "Total": 71
+                }
+            }
+        ],
+        "1682069337": [
+            {
+                "Start time": "1682069337",
+                "End time": "1682069493",
+                "Total duration": "156",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63593",
+                "Bits statistics": {
+                    "Ingoing": 62488,
+                    "Outgoing": 263104,
+                    "Total": 325592
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 38,
+                    "Total": 69
+                }
+            }
+        ],
+        "1682073652": [
+            {
+                "Start time": "1682073652",
+                "End time": "1682073774",
+                "Total duration": "122",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "63868",
+                "Bits statistics": {
+                    "Ingoing": 58552,
+                    "Outgoing": 259312,
+                    "Total": 317864
+                },
+                "Packets statistics": {
+                    "Ingoing": 22,
+                    "Outgoing": 31,
+                    "Total": 53
+                }
+            }
+        ],
+        "1682079639": [
+            {
+                "Start time": "1682079639",
+                "End time": "1682079813",
+                "Total duration": "174",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "64424",
+                "Bits statistics": {
+                    "Ingoing": 64368,
+                    "Outgoing": 261392,
+                    "Total": 325760
+                },
+                "Packets statistics": {
+                    "Ingoing": 33,
+                    "Outgoing": 35,
+                    "Total": 68
+                }
+            }
+        ],
+        "1682090830": [
+            {
+                "Start time": "1682090830",
+                "End time": "1682090951",
+                "Total duration": "121",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "50283",
+                "Bits statistics": {
+                    "Ingoing": 63600,
+                    "Outgoing": 260840,
+                    "Total": 324440
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 34,
+                    "Total": 65
+                }
+            }
+        ],
+        "1682105793": [
+            {
+                "Start time": "1682105793",
+                "End time": "1682105914",
+                "Total duration": "121",
+                "Domain name": "www.imperva.com",
+                "IP address": "45.60.76.225",
+                "Port": "54995",
+                "Bits statistics": {
+                    "Ingoing": 65560,
+                    "Outgoing": 261224,
+                    "Total": 326784
+                },
+                "Packets statistics": {
+                    "Ingoing": 35,
+                    "Outgoing": 34,
+                    "Total": 69
+                }
+            }
+        ],
+        "1682061031": [
+            {
+                "Start time": "1682061031",
+                "End time": "1682061158",
+                "Total duration": "127",
+                "Domain name": "www.brighttalk.com",
+                "IP address": "104.66.99.100",
+                "Port": "62838",
+                "Bits statistics": {
+                    "Ingoing": 1417992,
+                    "Outgoing": 76720,
+                    "Total": 1494712
+                },
+                "Packets statistics": {
+                    "Ingoing": 154,
+                    "Outgoing": 113,
+                    "Total": 267
+                }
+            }
+        ],
+        "1682062176": [
+            {
+                "Start time": "1682062176",
+                "End time": "1682062354",
+                "Total duration": "178",
+                "Domain name": "www.mindmup.com",
+                "IP address": "13.225.239.53",
+                "Port": "62952",
+                "Bits statistics": {
+                    "Ingoing": 1618056,
+                    "Outgoing": 97560,
+                    "Total": 1715616
+                },
+                "Packets statistics": {
+                    "Ingoing": 158,
+                    "Outgoing": 140,
+                    "Total": 298
+                }
+            }
+        ],
+        "1682062178": [
+            {
+                "Start time": "1682062178",
+                "End time": "1682062420",
+                "Total duration": "242",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:801::2004",
+                "Port": "62957",
+                "Bits statistics": {
+                    "Ingoing": 2360992,
+                    "Outgoing": 218784,
+                    "Total": 2579776
+                },
+                "Packets statistics": {
+                    "Ingoing": 247,
+                    "Outgoing": 275,
+                    "Total": 522
+                }
+            }
+        ],
+        "1682107356": [
+            {
+                "Start time": "1682107356",
+                "End time": "1682107598",
+                "Total duration": "242",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:801::2004",
+                "Port": "55094",
+                "Bits statistics": {
+                    "Ingoing": 61504,
+                    "Outgoing": 24240,
+                    "Total": 85744
+                },
+                "Packets statistics": {
+                    "Ingoing": 23,
+                    "Outgoing": 22,
+                    "Total": 45
+                }
+            }
+        ],
+        "1682063743": [
+            {
+                "Start time": "1682063743",
+                "End time": "1682063983",
+                "Total duration": "240",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:810::2004",
+                "Port": "63158",
+                "Bits statistics": {
+                    "Ingoing": 5266352,
+                    "Outgoing": 1003704,
+                    "Total": 6270056
+                },
+                "Packets statistics": {
+                    "Ingoing": 644,
+                    "Outgoing": 820,
+                    "Total": 1464
+                }
+            }
+        ],
+        "1682064213": [
+            {
+                "Start time": "1682064213",
+                "End time": "1682064560",
+                "Total duration": "347",
+                "Domain name": "www.google.com",
+                "IP address": "142.250.179.164",
+                "Port": "63191",
+                "Bits statistics": {
+                    "Ingoing": 66432,
+                    "Outgoing": 33528,
+                    "Total": 99960
+                },
+                "Packets statistics": {
+                    "Ingoing": 31,
+                    "Outgoing": 31,
+                    "Total": 62
+                }
+            }
+        ],
+        "1682065543": [
+            {
+                "Start time": "1682065543",
+                "End time": "1682066026",
+                "Total duration": "483",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:800::2004",
+                "Port": "63285",
+                "Bits statistics": {
+                    "Ingoing": 11707288,
+                    "Outgoing": 1221576,
+                    "Total": 12928864
+                },
+                "Packets statistics": {
+                    "Ingoing": 1354,
+                    "Outgoing": 980,
+                    "Total": 2334
+                }
+            }
+        ],
+        "1682065550": [
+            {
+                "Start time": "1682065550",
+                "End time": "1682065906",
+                "Total duration": "356",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:810::2003",
+                "Port": "63288",
+                "Bits statistics": {
+                    "Ingoing": 6122928,
+                    "Outgoing": 349792,
+                    "Total": 6472720
+                },
+                "Packets statistics": {
+                    "Ingoing": 636,
+                    "Outgoing": 327,
+                    "Total": 963
+                }
+            }
+        ],
+        "1682065555": [
+            {
+                "Start time": "1682065555",
+                "End time": "1682065563",
+                "Total duration": "8",
+                "Domain name": "www.firewall.cx",
+                "IP address": "162.254.144.167",
+                "Port": [
+                    "63290",
+                    "63291",
+                    "63293",
+                    "63292",
+                    "63295",
+                    "63294",
+                    "63296",
+                    "63297"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 6276296,
+                    "Outgoing": 706832,
+                    "Total": 6983128
+                },
+                "Packets statistics": {
+                    "Ingoing": 623,
+                    "Outgoing": 534,
+                    "Total": 1157
+                }
+            }
+        ],
+        "1682066422": [
+            {
+                "Start time": "1682066422",
+                "End time": "1682066575",
+                "Total duration": "153",
+                "Domain name": "www.interrail.eu",
+                "IP address": "2600:9000:21d7:ca00:c:e9f8:3240:93a1",
+                "Port": "63339",
+                "Bits statistics": {
+                    "Ingoing": 19217968,
+                    "Outgoing": 2870744,
+                    "Total": 22088712
+                },
+                "Packets statistics": {
+                    "Ingoing": 1970,
+                    "Outgoing": 913,
+                    "Total": 2883
+                }
+            }
+        ],
+        "1682066516": [
+            {
+                "Start time": "1682066516",
+                "End time": "1682066575",
+                "Total duration": "59",
+                "Domain name": "www.ieee.org",
+                "IP address": "104.126.247.102",
+                "Port": [
+                    "63365",
+                    "63368",
+                    "63369",
+                    "63370",
+                    "63371",
+                    "63372"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 726608,
+                    "Outgoing": 144720,
+                    "Total": 871328
+                },
+                "Packets statistics": {
+                    "Ingoing": 138,
+                    "Outgoing": 107,
+                    "Total": 245
+                }
+            }
+        ],
+        "1682066556": [
+            {
+                "Start time": "1682066556",
+                "End time": "1682066749",
+                "Total duration": "193",
+                "Domain name": "www.sciencedirect.com",
+                "IP address": "162.159.136.70",
+                "Port": "63383",
+                "Bits statistics": {
+                    "Ingoing": 308864,
+                    "Outgoing": 28952,
+                    "Total": 337816
+                },
+                "Packets statistics": {
+                    "Ingoing": 35,
+                    "Outgoing": 24,
+                    "Total": 59
+                }
+            }
+        ],
+        "1682066560": [
+            {
+                "Start time": "1682066560",
+                "End time": "1682066628",
+                "Total duration": "68",
+                "Domain name": "www.linkblock.net",
+                "IP address": "188.166.174.207",
+                "Port": "63392",
+                "Bits statistics": {
+                    "Ingoing": 174672,
+                    "Outgoing": 24152,
+                    "Total": 198824
+                },
+                "Packets statistics": {
+                    "Ingoing": 29,
+                    "Outgoing": 26,
+                    "Total": 55
+                }
+            },
+            {
+                "Start time": "1682066560",
+                "End time": "1682066575",
+                "Total duration": "15",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:802::2003",
+                "Port": "63394",
+                "Bits statistics": {
+                    "Ingoing": 1522864,
+                    "Outgoing": 68536,
+                    "Total": 1591400
+                },
+                "Packets statistics": {
+                    "Ingoing": 152,
+                    "Outgoing": 88,
+                    "Total": 240
+                }
+            }
+        ],
+        "1682066566": [
+            {
+                "Start time": "1682066566",
+                "End time": "1682066690",
+                "Total duration": "124",
+                "Domain name": "www.sci-hub.ru",
+                "IP address": "190.115.31.218",
+                "Port": "63396",
+                "Bits statistics": {
+                    "Ingoing": 14930424,
+                    "Outgoing": 297616,
+                    "Total": 15228040
+                },
+                "Packets statistics": {
+                    "Ingoing": 1308,
+                    "Outgoing": 529,
+                    "Total": 1837
+                }
+            }
+        ],
+        "1682067846": [
+            {
+                "Start time": "1682067846",
+                "End time": "1682068065",
+                "Total duration": "219",
+                "Domain name": "www.googleoptimize.com",
+                "IP address": "2a00:1450:400e:802::200e",
+                "Port": "63490",
+                "Bits statistics": {
+                    "Ingoing": 491024,
+                    "Outgoing": 42320,
+                    "Total": 533344
+                },
+                "Packets statistics": {
+                    "Ingoing": 62,
+                    "Outgoing": 43,
+                    "Total": 105
+                }
+            }
+        ],
+        "1682071163": [
+            {
+                "Start time": "1682071163",
+                "End time": "1682071294",
+                "Total duration": "131",
+                "Domain name": "www.pathe.be",
+                "IP address": "81.243.1.216",
+                "Port": "63723",
+                "Bits statistics": {
+                    "Ingoing": 364536,
+                    "Outgoing": 185248,
+                    "Total": 549784
+                },
+                "Packets statistics": {
+                    "Ingoing": 56,
+                    "Outgoing": 288,
+                    "Total": 344
+                }
+            }
+        ],
+        "1682076452": [
+            {
+                "Start time": "1682076452",
+                "End time": "1682076584",
+                "Total duration": "132",
+                "Domain name": "www.lagomframework.com",
+                "IP address": "2606:4700:3031::6815:3edc",
+                "Port": "64122",
+                "Bits statistics": {
+                    "Ingoing": 1035360,
+                    "Outgoing": 153328,
+                    "Total": 1188688
+                },
+                "Packets statistics": {
+                    "Ingoing": 131,
+                    "Outgoing": 183,
+                    "Total": 314
+                }
+            }
+        ],
+        "1682076943": [
+            {
+                "Start time": "1682076943",
+                "End time": "1682076975",
+                "Total duration": "32",
+                "Domain name": "www.like2sport.com",
+                "IP address": "104.47.155.195",
+                "Port": "64170",
+                "Bits statistics": {
+                    "Ingoing": 267976,
+                    "Outgoing": 22456,
+                    "Total": 290432
+                },
+                "Packets statistics": {
+                    "Ingoing": 26,
+                    "Outgoing": 24,
+                    "Total": 50
+                }
+            }
+        ],
+        "1682076969": [
+            {
+                "Start time": "1682076969",
+                "End time": "1682077192",
+                "Total duration": "223",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:811::2003",
+                "Port": "64194",
+                "Bits statistics": {
+                    "Ingoing": 1771584,
+                    "Outgoing": 97088,
+                    "Total": 1868672
+                },
+                "Packets statistics": {
+                    "Ingoing": 190,
+                    "Outgoing": 116,
+                    "Total": 306
+                }
+            }
+        ],
+        "1682077309": [
+            {
+                "Start time": "1682077309",
+                "End time": "1682077498",
+                "Total duration": "189",
+                "Domain name": "www.lesechos.fr",
+                "IP address": "152.199.23.133",
+                "Port": "64212",
+                "Bits statistics": {
+                    "Ingoing": 951688,
+                    "Outgoing": 83096,
+                    "Total": 1034784
+                },
+                "Packets statistics": {
+                    "Ingoing": 96,
+                    "Outgoing": 86,
+                    "Total": 182
+                }
+            }
+        ],
+        "1682077318": [
+            {
+                "Start time": "1682077318",
+                "End time": "1682077554",
+                "Total duration": "236",
+                "Domain name": "www.ultimedia.com",
+                "IP address": "51.210.215.109",
+                "Port": "64235",
+                "Bits statistics": {
+                    "Ingoing": 189128,
+                    "Outgoing": 173864,
+                    "Total": 362992
+                },
+                "Packets statistics": {
+                    "Ingoing": 54,
+                    "Outgoing": 72,
+                    "Total": 126
+                }
+            }
+        ],
+        "1682078800": [
+            {
+                "Start time": "1682078800",
+                "End time": "1682079162",
+                "Total duration": "362",
+                "Domain name": "www.google.com",
+                "IP address": "2a00:1450:400e:805::2004",
+                "Port": "64335",
+                "Bits statistics": {
+                    "Ingoing": 68944,
+                    "Outgoing": 23128,
+                    "Total": 92072
+                },
+                "Packets statistics": {
+                    "Ingoing": 20,
+                    "Outgoing": 19,
+                    "Total": 39
+                }
+            }
+        ],
+        "1682079500": [
+            {
+                "Start time": "1682079500",
+                "End time": "1682079568",
+                "Total duration": "68",
+                "Domain name": "www.alleydog.com",
+                "IP address": "64.13.224.11",
+                "Port": "64364",
+                "Bits statistics": {
+                    "Ingoing": 2140576,
+                    "Outgoing": 90448,
+                    "Total": 2231024
+                },
+                "Packets statistics": {
+                    "Ingoing": 203,
+                    "Outgoing": 120,
+                    "Total": 323
+                }
+            }
+        ],
+        "1682079513": [
+            {
+                "Start time": "1682079513",
+                "End time": "1682079516",
+                "Total duration": "3",
+                "Domain name": "www.researchgate.net",
+                "IP address": "2606:4700::6811:2169",
+                "Port": [
+                    "64375",
+                    "64380"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 1754192,
+                    "Outgoing": 159760,
+                    "Total": 1913952
+                },
+                "Packets statistics": {
+                    "Ingoing": 218,
+                    "Outgoing": 172,
+                    "Total": 390
+                }
+            }
+        ],
+        "1682079530": [
+            {
+                "Start time": "1682079530",
+                "End time": "1682079692",
+                "Total duration": "162",
+                "Domain name": "www.arimetrics.com",
+                "IP address": "34.160.17.71",
+                "Port": "64388",
+                "Bits statistics": {
+                    "Ingoing": 8374360,
+                    "Outgoing": 347824,
+                    "Total": 8722184
+                },
+                "Packets statistics": {
+                    "Ingoing": 745,
+                    "Outgoing": 485,
+                    "Total": 1230
+                }
+            }
+        ],
+        "1682079535": [
+            {
+                "Start time": "1682079535",
+                "End time": "1682079692",
+                "Total duration": "157",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:801::2003",
+                "Port": "64398",
+                "Bits statistics": {
+                    "Ingoing": 260200,
+                    "Outgoing": 28008,
+                    "Total": 288208
+                },
+                "Packets statistics": {
+                    "Ingoing": 37,
+                    "Outgoing": 28,
+                    "Total": 65
+                }
+            }
+        ],
+        "1682080615": [
+            {
+                "Start time": "1682080615",
+                "End time": "1682080755",
+                "Total duration": "140",
+                "Domain name": "www.googleoptimize.com",
+                "IP address": "2a00:1450:400e:801::200e",
+                "Port": "64443",
+                "Bits statistics": {
+                    "Ingoing": 481848,
+                    "Outgoing": 34120,
+                    "Total": 515968
+                },
+                "Packets statistics": {
+                    "Ingoing": 54,
+                    "Outgoing": 38,
+                    "Total": 92
+                }
+            }
+        ],
+        "1682080690": [
+            {
+                "Start time": "1682080690",
+                "End time": "1682080875",
+                "Total duration": "185",
+                "Domain name": "www.arimetrics.com",
+                "IP address": "35.190.31.54",
+                "Port": "64475",
+                "Bits statistics": {
+                    "Ingoing": 687632,
+                    "Outgoing": 170816,
+                    "Total": 858448
+                },
+                "Packets statistics": {
+                    "Ingoing": 126,
+                    "Outgoing": 117,
+                    "Total": 243
+                }
+            }
+        ],
+        "1682080749": [
+            {
+                "Start time": "1682080749",
+                "End time": "1682080809",
+                "Total duration": "60",
+                "Domain name": "www.ieee.org",
+                "IP address": "104.102.19.76",
+                "Port": [
+                    "64500",
+                    "64502",
+                    "64503",
+                    "64504",
+                    "64505",
+                    "64506"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 384336,
+                    "Outgoing": 134784,
+                    "Total": 519120
+                },
+                "Packets statistics": {
+                    "Ingoing": 96,
+                    "Outgoing": 87,
+                    "Total": 183
+                }
+            }
+        ],
+        "1682080963": [
+            {
+                "Start time": "1682080963",
+                "End time": "1682081008",
+                "Total duration": "45",
+                "Domain name": "www.ieee.org",
+                "IP address": "104.102.19.76",
+                "Port": [
+                    "64559",
+                    "64560"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 113440,
+                    "Outgoing": 56920,
+                    "Total": 170360
+                },
+                "Packets statistics": {
+                    "Ingoing": 33,
+                    "Outgoing": 31,
+                    "Total": 64
+                }
+            }
+        ],
+        "1682081598": [
+            {
+                "Start time": "1682081598",
+                "End time": "1682081839",
+                "Total duration": "241",
+                "Domain name": "www.gstatic.com",
+                "IP address": "2a00:1450:400e:803::2003",
+                "Port": "64616",
+                "Bits statistics": {
+                    "Ingoing": 1182704,
+                    "Outgoing": 90872,
+                    "Total": 1273576
+                },
+                "Packets statistics": {
+                    "Ingoing": 125,
+                    "Outgoing": 112,
+                    "Total": 237
+                }
+            }
+        ],
+        "1682085766": [
+            {
+                "Start time": "1682085766",
+                "End time": "1682085771",
+                "Total duration": "5",
+                "Domain name": "www.ulb.be",
+                "IP address": "164.15.59.215",
+                "Port": [
+                    "65149",
+                    "65154",
+                    "65156",
+                    "65158"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 24254984,
+                    "Outgoing": 1022200,
+                    "Total": 25277184
+                },
+                "Packets statistics": {
+                    "Ingoing": 2054,
+                    "Outgoing": 2080,
+                    "Total": 4134
+                }
+            }
+        ],
+        "1682085781": [
+            {
+                "Start time": "1682085781",
+                "End time": "1682085791",
+                "Total duration": "10",
+                "Domain name": "www.ulb.be",
+                "IP address": "164.15.59.215",
+                "Port": [
+                    "65170",
+                    "65171"
+                ],
+                "Bits statistics": {
+                    "Ingoing": 60856,
+                    "Outgoing": 24560,
+                    "Total": 85416
+                },
+                "Packets statistics": {
+                    "Ingoing": 18,
+                    "Outgoing": 19,
+                    "Total": 37
+                }
+            }
+        ],
+        "1682085780": [
+            {
+                "Start time": "1682085780",
+                "End time": "1682085900",
+                "Total duration": "120",
+                "Domain name": "www.mozilla.org",
+                "IP address": "13.225.21.141",
+                "Port": "65165",
+                "Bits statistics": {
+                    "Ingoing": 57424,
+                    "Outgoing": 11320,
+                    "Total": 68744
+                },
+                "Packets statistics": {
+                    "Ingoing": 14,
+                    "Outgoing": 10,
+                    "Total": 24
+                }
+            }
+        ],
+        "1682106087": [
+            {
+                "Start time": "1682106087",
+                "End time": "1682106148",
+                "Total duration": "61",
+                "Domain name": "www.zoobelgique.com",
+                "IP address": "2a05:d014:776:a63d:6339:2a28:fc90:eea",
+                "Port": "55020",
+                "Bits statistics": {
+                    "Ingoing": 1676248,
+                    "Outgoing": 90528,
+                    "Total": 1766776
+                },
+                "Packets statistics": {
+                    "Ingoing": 153,
+                    "Outgoing": 120,
+                    "Total": 273
+                }
+            }
+        ],
+        "1682106093": [
+            {
+                "Start time": "1682106093",
+                "End time": "1682106159",
+                "Total duration": "66",
+                "Domain name": "www.zooplanckendael.be",
+                "IP address": "89.36.74.185",
+                "Port": "55024",
+                "Bits statistics": {
+                    "Ingoing": 3157008,
+                    "Outgoing": 77048,
+                    "Total": 3234056
+                },
+                "Packets statistics": {
+                    "Ingoing": 272,
+                    "Outgoing": 136,
+                    "Total": 408
+                }
+            }
+        ]
+    }
+}
