@@ -10,18 +10,18 @@ from datetime import datetime
 class NetworkAnalysis:
     def __init__(self, trace_start_time, trace_end_time, internet_users_mac_address):
         self.internet_users_dictionary = {}
-        self.bits_statistics = {"Ingoing": 0, "Outgoing": 0, "Total": 0, "Rate": {}}
-        self.packets_statistics = {"Ingoing": 0, "Outgoing": 0, "Total": 0, "Rate": {}}
+        self.global_rate_statistics = {}
+        self.global_characteristics = {"Packet_sent": 0, "Packet_received": 0, "Total_packet": 0, "Bit_sent": 0, "Bit_received": 0, "Total_bit": 0}
         self.trace_start_time = trace_start_time
         self.trace_end_time = trace_end_time
         self.init_stats_dictionaries()
         for address in internet_users_mac_address:
             self.internet_users_dictionary[address] = InternetUser(address, trace_start_time, trace_end_time)
+        self.current_timestamp = 0.0
         
     def init_stats_dictionaries(self):
         for i in range(self.trace_start_time, self.trace_end_time):
-            self.bits_statistics["Rate"][i] = 0
-            self.packets_statistics["Rate"][i] = 0
+            self.global_rate_statistics[i] = {"Bits_rate": {"Ingoing": 0, "Outgoing": 0, "Total": 0}, "Packets_rate": {"Ingoing": 0, "Outgoing": 0, "Total": 0}, "Inter_time_rate": {"Ingoing": 0.0, "Outgoing": 0.0, "Total": 0.0}, "Protocols_rate": {"Ingoing": {}, "Outgoing": {}, "Total": {}}}
 
     def get_internet_users(self):
         for value in self.internet_users_dictionary.values():
@@ -47,18 +47,56 @@ class NetworkAnalysis:
         return False
             
     def update_global_statistics(self, packet, direction):
-        if direction == "IN":
-            self.bits_statistics["Ingoing"] += (int(packet.length) * 8)
-            self.packets_statistics["Ingoing"] += 1
-        else:
-            self.bits_statistics["Outgoing"] += (int(packet.length) * 8)
-            self.packets_statistics["Outgoing"] += 1
-        self.bits_statistics["Total"] += (int(packet.length) * 8)
-        self.packets_statistics["Total"] += 1
-
         key = int(packet.sniff_timestamp.split(".")[0])
-        self.bits_statistics["Rate"][key] += (int(packet.length) * 8)
-        self.packets_statistics["Rate"][key] += 1
+        if self.current_timestamp == 0.0:
+            self.current_timestamp = float(packet.sniff_timestamp)
+        packet_timestamp = float(packet.sniff_timestamp)
+        protocol = packet.highest_layer
+        if direction == "IN":
+            self.global_rate_statistics[key]["Bits_rate"]["Ingoing"] += (int(packet.length) * 8)
+            self.global_rate_statistics[key]["Packets_rate"]["Ingoing"] += 1
+            if self.global_rate_statistics[key]["Inter_time_rate"]["Ingoing"] == 0.0:
+                self.global_rate_statistics[key]["Inter_time_rate"]["Ingoing"] = packet_timestamp - self.current_timestamp
+            else:
+                self.global_rate_statistics[key]["Inter_time_rate"]["Ingoing"] = (self.global_rate_statistics[key]["Inter_time_rate"]["Ingoing"] + (packet_timestamp - self.current_timestamp)) / 2
+            self.global_characteristics["Packet_received"] += 1
+            self.global_characteristics["Bit_received"] += (int(packet.length) * 8)
+            
+            if protocol not in self.global_rate_statistics[key]["Protocols_rate"]["Ingoing"].keys():
+                self.global_rate_statistics[key]["Protocols_rate"]["Ingoing"][protocol] = 1
+            else:
+                self.global_rate_statistics[key]["Protocols_rate"]["Ingoing"][protocol] += 1
+        else:
+            self.global_rate_statistics[key]["Bits_rate"]["Outgoing"] += (int(packet.length) * 8)
+            self.global_rate_statistics[key]["Packets_rate"]["Outgoing"] += 1
+            if self.global_rate_statistics[key]["Inter_time_rate"]["Outgoing"] == 0.0:
+                self.global_rate_statistics[key]["Inter_time_rate"]["Outgoing"] = packet_timestamp - self.current_timestamp
+            else:
+                self.global_rate_statistics[key]["Inter_time_rate"]["Outgoing"] = (self.global_rate_statistics[key]["Inter_time_rate"]["Outgoing"] + (packet_timestamp - self.current_timestamp)) / 2
+            self.global_characteristics["Packet_sent"] += 1
+            self.global_characteristics["Bit_sent"] += (int(packet.length) * 8)
+            if protocol not in self.global_rate_statistics[key]["Protocols_rate"]["Outgoing"].keys():
+                self.global_rate_statistics[key]["Protocols_rate"]["Outgoing"][protocol] = 1
+            else:
+                self.global_rate_statistics[key]["Protocols_rate"]["Outgoing"][protocol] += 1
+
+        if self.global_rate_statistics[key]["Inter_time_rate"]["Total"] == 0.0:
+            self.global_rate_statistics[key]["Inter_time_rate"]["Total"] = packet_timestamp - self.current_timestamp
+        else:
+            self.global_rate_statistics[key]["Inter_time_rate"]["Total"] = (self.global_rate_statistics[key]["Inter_time_rate"]["Total"] + (packet_timestamp - self.current_timestamp)) / 2
+            
+        self.current_timestamp = packet_timestamp
+
+        self.global_rate_statistics[key]["Bits_rate"]["Total"] += (int(packet.length) * 8)
+        self.global_rate_statistics[key]["Packets_rate"]["Total"] += 1
+        self.global_characteristics["Total_packet"] += 1
+        self.global_characteristics["Total_bit"] += (int(packet.length) * 8)
+
+        if protocol not in self.global_rate_statistics[key]["Protocols_rate"]["Total"].keys():
+            self.global_rate_statistics[key]["Protocols_rate"]["Total"][protocol] = 1
+        else:
+            self.global_rate_statistics[key]["Protocols_rate"]["Total"][protocol] += 1
+
         self.update_users_statistics(packet, direction)
 
     def update_users_statistics(self, packet, direction):
@@ -88,14 +126,16 @@ class NetworkAnalysis:
             value.clean_activities_dictionary()
 
     def save_global_statistics(self):
-        global_dictionary = {"Bits statistics": {"Ingoing": self.bits_statistics["Ingoing"], 
-                                                 "Outgoing": self.bits_statistics["Outgoing"], 
-                                                 "Total": self.bits_statistics["Total"]}, 
+        global_dictionary = {"Bits statistics": {"Ingoing": self.global_characteristics["Bit_received"], 
+                                                 "Outgoing": self.global_characteristics["Bit_sent"], 
+                                                 "Total": self.global_characteristics["Total_bit"]}, 
                              "Packets statistics":
-                                                 {"Ingoing": self.packets_statistics["Ingoing"],
-                                                  "Outgoing": self.packets_statistics["Outgoing"],
-                                                  "Total": self.packets_statistics["Total"]}}
-        with open("Global-Statistics.json", "w") as outfile:
+                                                 {"Ingoing": self.global_characteristics["Packet_received"],
+                                                  "Outgoing": self.global_characteristics["Packet_sent"],
+                                                  "Total": self.global_characteristics["Total_packet"]},
+                             "Rate statistics": self.global_rate_statistics}
+        
+        with open("global-statistics.json", "w") as outfile:
             outfile.write(json.dumps(global_dictionary, indent=4, default=str))
         for value in self.internet_users_dictionary.values():
             value.save_user_statistics()
@@ -248,40 +288,34 @@ class InternetUser:
                         activities_timeline[activity.start_time] = [activity]
                     else:
                         activities_timeline[activity.start_time].append(activity)
-        return activities_timeline
+        timeline_keys = list(activities_timeline.keys())
+        timeline_keys.sort()
+        timeline = {i: activities_timeline[i] for i in timeline_keys}
+
+        return timeline
 
     def build_markov_chain(self, timeline):
         markov_chain = {}
         previous_activity = None
-        for activities in timeline.values():
-            for activity in activities:
+        for value in timeline.values():
+            for activity in value:
                 if previous_activity != None:
                     if previous_activity.domain_name not in markov_chain.keys():
                         markov_chain[previous_activity.domain_name] = {}
-                    if activity not in markov_chain[previous_activity.domain_name].keys():
-                        markov_chain[previous_activity.domain_name][activity] = 1
+                    if activity.domain_name not in markov_chain[previous_activity.domain_name].keys():
+                        markov_chain[previous_activity.domain_name][activity.domain_name] = 1
                     else:
-                        markov_chain[previous_activity.domain_name][activity] += 1
+                        markov_chain[previous_activity.domain_name][activity.domain_name] += 1
                 previous_activity = activity
-        total_contacted = 0
         for key, value in markov_chain.items():
-            for contacted in value.values():
-                total_contacted += contacted
+            sum_of_value = sum(value.values())
             for domain_name in value.keys():
-                markov_chain[key][domain_name] = (markov_chain[key][domain_name] / total_contacted) * 100
-            total_contacted = 0
+                markov_chain[key][domain_name] = (markov_chain[key][domain_name] / sum_of_value) * 100
         return markov_chain
         
     def save_user_statistics(self):
         timeline = self.build_activities_timeline()
         markov_chain = self.build_markov_chain(timeline)
-        comprehensive_markov_chain = {}
-        for domain_name, chain in markov_chain.items():
-            if domain_name not in comprehensive_markov_chain.keys():
-                comprehensive_markov_chain[domain_name] = {}
-            for chainion in chain.keys():
-                if chainion not in comprehensive_markov_chain[domain_name].keys():
-                    comprehensive_markov_chain[domain_name][chainion.domain_name] = markov_chain[domain_name][chainion]
         for timestamp, activities in timeline.items():
             for i in range(len(activities)):
                 timeline[timestamp][i] = timeline[timestamp][i].get_printable_data()
@@ -302,16 +336,14 @@ class InternetUser:
                              "Zones statistics":{"Zone number": self.zones_statistics["Zone number"],
                                                  "Zone information": self.zones_statistics["Zone information"]},
                              "Activities statistics": self.activities_dictionary,
-                             "Markov chain": comprehensive_markov_chain,
+                             "Markov chain": markov_chain,
                              "Timeline": timeline}
-        with open(self.MAC_address + "-Statistics.json", "w") as outfile:
+        with open(self.MAC_address + "-statistics.json", "w") as outfile:
             outfile.write(json.dumps(global_dictionary, indent=4, default=str))
     
     def show(self):
         print("This user has the MAC address : " + self.MAC_address)
         
-
-
 
 
 
