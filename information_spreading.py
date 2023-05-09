@@ -20,7 +20,7 @@ def save_timeline_file(user_mac_address, final_timeline):
 
 if __name__ == '__main__':
     user_mac_address = '6c:96:cf:e0:ef:a7'
-    information_file_name = user_mac_address + '-Statistics.json'
+    information_file_name = user_mac_address + '-statistics.json'
 
     information_file = open(information_file_name, 'r')
     user_data = json.load(information_file)
