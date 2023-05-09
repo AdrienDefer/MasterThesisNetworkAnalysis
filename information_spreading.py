@@ -1,14 +1,7 @@
 import json
-import random
+from random import Random
 import datetime
 
-
-ghosts_timeline = {"HandlerType": "BrowserFirefox",
-                   "Initial": "about:blank",
-                   "UtcTimeOn": "12:00:00",
-                   "UtcTimeOff": "12:30:00",
-                   "Loop": "True",
-                   "TimeLineEvents": [{}, {}]}
 
 def get_categorie_of(domain_name):
     for key, value in groups_data.items():
@@ -17,7 +10,7 @@ def get_categorie_of(domain_name):
     return None
 
 def get_random_domain_from(categorie):
-    return random.choices(groups_data[categorie])
+    return b.choices(groups_data[categorie])
 
 def save_timeline_file(user_mac_address, final_timeline):
     filename = user_mac_address + '-Timeline.json'
@@ -43,30 +36,33 @@ if __name__ == '__main__':
 
     timeline_file = {"TimeLineHandlers": []}
     initial_domain = timeline[list(timeline.keys())[0]][0]["Domain name"]
+    a = Random()
+    b = Random()
     for zone_information in zone_statistics["Zone information"].values():
         zone_header = {
-                        "HandlerType": "BrowserFirefox",
-                        "Initial": "about:blank",
-                        "UtcTimeOn": str(datetime.datetime.fromtimestamp(zone_information["Start time"])).split(" ")[1],
-                        "UtcTimeOff": str(datetime.datetime.fromtimestamp(zone_information["End time"])).split(" ")[1],
-                        "Loop": "True",
-                        "TimeLineEvents": []
+                    "HandlerType": "BrowserFirefox",
+                    "Initial": "about:blank",
+                    "UtcTimeOn": str(datetime.datetime.fromtimestamp(zone_information["Start time"])).split(" ")[1],
+                    "UtcTimeOff": str(datetime.datetime.fromtimestamp(zone_information["End time"])).split(" ")[1],
+                    "Loop": "True",
+                    "TimeLineEvents": []
         }
-        for item in timeline.values():
-            for event in item:
-                if int(event["Start time"]) > zone_information["Start time"] and int(event["Start time"]) < zone_information["End time"]:
+        for time_key, value in timeline.items():
+            for activity in value:
+                if int(time_key) >= int(zone_information["Start time"]) and int(time_key) <= int(zone_information["End time"]):
                     event_struct = {
-                        "Command": "browse",
-                        "CommandArgs": [get_random_domain_from(get_categorie_of(initial_domain))],
-                        "DelayAfter": (zone_information["End time"] - zone_information["Start time"]) / zone_information["Domain contacted in the zone"],
-                        "DelayBefore": 0
+                            "Command": "browse",
+                            "CommandArgs": [get_random_domain_from(get_categorie_of(initial_domain))],
+                            "DelayAfter": activity["Total duration"],
+                            "DelayBefore": 0
                     }
                     zone_header["TimeLineEvents"].append(event_struct)
-                    if (initial_domain in markov_chain.keys()):
-                        initial_domain = random.choice(list(markov_chain[initial_domain].keys()))
-                    else:
-                        initial_domain = random.choice(list(markov_chain.keys()))
-                else:
-                    break
+                    random = a.randint(0, 100)
+                    cumulative_proba = 0
+                    for key, value in markov_chain[initial_domain].items():
+                        cumulative_proba += value
+                        if (random <= cumulative_proba):
+                            initial_domain = key
+                            break
         timeline_file["TimeLineHandlers"].append(zone_header)
     save_timeline_file(user_mac_address, timeline_file)
