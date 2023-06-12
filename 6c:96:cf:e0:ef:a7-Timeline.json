@@ -1,0 +1,717 @@
+{
+    "TimeLineHandlers": [
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "08:31:00",
+            "UtcTimeOff": "08:57:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.ugc.be"
+                    ],
+                    "DelayAfter": "121000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.google.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "482000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "121000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.zoobelgique.com"
+                    ],
+                    "DelayAfter": "66000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "09:04:00",
+            "UtcTimeOff": "10:13:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.zoobelgique.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.deepl.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.google.be"
+                    ],
+                    "DelayAfter": "192000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "127000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "120000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.interrail.eu"
+                    ],
+                    "DelayAfter": "404000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.researchgate.net"
+                    ],
+                    "DelayAfter": "178000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "242000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.edrawmax.com"
+                    ],
+                    "DelayAfter": "120000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://duckduckgo.com"
+                    ],
+                    "DelayAfter": "63000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "240000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.google.com"
+                    ],
+                    "DelayAfter": "170000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.brighttalk.com"
+                    ],
+                    "DelayAfter": "347000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "10:17:00",
+            "UtcTimeOff": "12:11:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://scholar.google.com"
+                    ],
+                    "DelayAfter": "360000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "70000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.cinebel.dhnet.be"
+                    ],
+                    "DelayAfter": "217000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lavenir.net"
+                    ],
+                    "DelayAfter": "483000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "356000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "8000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "153000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "59000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.translate.google.com"
+                    ],
+                    "DelayAfter": "193000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.yahoo.com"
+                    ],
+                    "DelayAfter": "68000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "15000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.brighttalk.com"
+                    ],
+                    "DelayAfter": "124000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lavenir.net"
+                    ],
+                    "DelayAfter": "121000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lesechos.fr"
+                    ],
+                    "DelayAfter": "219000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "265000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.walibi.com"
+                    ],
+                    "DelayAfter": "240000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.disneylandparis.com"
+                    ],
+                    "DelayAfter": "61000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.translate.google.com"
+                    ],
+                    "DelayAfter": "156000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lavenir.net"
+                    ],
+                    "DelayAfter": "288000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "131000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "12:40:00",
+            "UtcTimeOff": "13:24:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "122000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.deepl.com"
+                    ],
+                    "DelayAfter": "361000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.nytimes.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.firewall.cx"
+                    ],
+                    "DelayAfter": "243000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "13:27:00",
+            "UtcTimeOff": "14:30:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "132000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "122000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "32000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lesoir.be"
+                    ],
+                    "DelayAfter": "223000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.sci-hub.ru"
+                    ],
+                    "DelayAfter": "189000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.nytimes.com"
+                    ],
+                    "DelayAfter": "236000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.gstatic.com"
+                    ],
+                    "DelayAfter": "233000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.ieee.org"
+                    ],
+                    "DelayAfter": "242000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "362000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.belgiantrain.be"
+                    ],
+                    "DelayAfter": "240000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://scholar.google.com"
+                    ],
+                    "DelayAfter": "68000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "3000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.pairidaiza.eu"
+                    ],
+                    "DelayAfter": "162000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.disneylandparis.com"
+                    ],
+                    "DelayAfter": "157000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.larousse.fr"
+                    ],
+                    "DelayAfter": "174000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "14:36:00",
+            "UtcTimeOff": "15:51:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "140000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "185000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.qwant.com"
+                    ],
+                    "DelayAfter": "60000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lesechos.fr"
+                    ],
+                    "DelayAfter": "45000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lesoir.be"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.deepl.com"
+                    ],
+                    "DelayAfter": "241000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.ultimedia.com"
+                    ],
+                    "DelayAfter": "239000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.deepl.com"
+                    ],
+                    "DelayAfter": "2000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "16:02:00",
+            "UtcTimeOff": "16:13:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.rtbf.be"
+                    ],
+                    "DelayAfter": "5000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "120000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "10000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "17:27:00",
+            "UtcTimeOff": "17:37:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.edrawmax.com"
+                    ],
+                    "DelayAfter": "121000",
+                    "DelayBefore": 0
+                }
+            ]
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "19:31:00",
+            "UtcTimeOff": "19:41:00",
+            "Loop": "True",
+            "TimeLineEvents": []
+        },
+        {
+            "HandlerType": "BrowserFirefox",
+            "Initial": "about:blank",
+            "UtcTimeOn": "21:36:00",
+            "UtcTimeOff": "22:12:00",
+            "Loop": "True",
+            "TimeLineEvents": [
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.bing.com"
+                    ],
+                    "DelayAfter": "121000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "323000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.overleaf.com"
+                    ],
+                    "DelayAfter": "61000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.yahoo.com"
+                    ],
+                    "DelayAfter": "66000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.googleoptimize.com"
+                    ],
+                    "DelayAfter": "61000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.lesechos.fr"
+                    ],
+                    "DelayAfter": "242000",
+                    "DelayBefore": 0
+                },
+                {
+                    "Command": "browse",
+                    "CommandArgs": [
+                        "https://www.imperva.com"
+                    ],
+                    "DelayAfter": "242000",
+                    "DelayBefore": 0
+                }
+            ]
+        }
+    ]
+}
