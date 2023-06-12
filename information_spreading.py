@@ -10,7 +10,7 @@ def get_categorie_of(domain_name):
     return None
 
 def get_random_domain_from(categorie):
-    return b.choices(groups_data[categorie])
+    return "https://" + b.choices(groups_data[categorie])[0]
 
 def save_timeline_file(user_mac_address, final_timeline):
     filename = user_mac_address + '-Timeline.json'
@@ -55,7 +55,7 @@ if __name__ == '__main__':
                     event_struct = {
                             "Command": "browse",
                             "CommandArgs": [get_random_domain_from(get_categorie_of(initial_domain))],
-                            "DelayAfter": activity["Total duration"],
+                            "DelayAfter": activity["Total duration"] + "000",
                             "DelayBefore": 0
                     }
                     zone_header["TimeLineEvents"].append(event_struct)
